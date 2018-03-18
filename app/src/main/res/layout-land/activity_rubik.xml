@@ -20,7 +20,7 @@
         cube:layout_constraintStart_toStartOf="parent"
         cube:layout_constraintTop_toBottomOf="@+id/cubeToolBar"
         cube:moves="R2' U M U' R2' U M' U'"
-        cube:singleRotationSpeed="10" />
+        cube:singleRotationSpeed="6" />
 
     <TextView
         android:id="@+id/message"
@@ -46,6 +46,7 @@
         cube:layout_constraintBottom_toTopOf="@+id/animcube"
         cube:layout_constraintEnd_toEndOf="parent"
         cube:layout_constraintHorizontal_bias="0.5"
-        cube:layout_constraintStart_toStartOf="parent" />
-    <!--cube:backFacesDistance="4"-->
+        cube:layout_constraintStart_toStartOf="parent"
+        cube:theme = "@style/ToolBarTheme">
+    </android.support.v7.widget.Toolbar>
 </android.support.constraint.ConstraintLayout>

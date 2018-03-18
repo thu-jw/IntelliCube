@@ -13,6 +13,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.jw.AnimCubeLib.AnimCube;
 import com.jw.blesample.comm.Observer;
@@ -37,7 +38,8 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
 
     public static final String ANIM_CUBE_SAVE_STATE_BUNDLE_ID = "animCube";
     private static final String TAG = "AnimCubeActivity";
-    private boolean receiving_data = false;
+    private boolean anim_available = false;
+    private boolean isRestorable = false;
     public int turnCode = 0x1;
     private AnimCube animCube;
     private Bundle state;
@@ -74,40 +76,28 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.play_forward:
-                animCube.animateMoveSequence();
-                break;
-            case R.id.play_backward:
-                animCube.animateMoveSequenceReversed();
+            case R.id.start:
+                anim_available = true;
                 break;
             case R.id.stop:
+                anim_available = false;
                 animCube.stopAnimation();
-                break;
-            case R.id.one_move_forward:
-                animCube.animateMove();
-                break;
-            case R.id.one_move_backward:
-                animCube.animateMoveReversed();
                 break;
             case R.id.reset:
                 animCube.resetToInitialState();
                 break;
             case R.id.save_state:
                 state = animCube.saveState();
+                isRestorable = true;
                 break;
             case R.id.restore_state:
-                animCube.restoreState(state);
-                break;
-            case R.id.Test:
-                while (true){
-                    animCube.runCodedTurn(turnCode);
-                    message.setText(String.valueOf(turnCode));
-                    turnCode++;
-                    while (animCube.isAnimating())
-                    {
-
-                    }
+                if (!isRestorable){
+                    Toast.makeText(RubikActivity.this, "No Available State", Toast.LENGTH_LONG).show();
                 }
+                else {
+                    animCube.restoreState(state);
+                }
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
@@ -239,6 +229,8 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
 
 
     private void runTurn(int code){
+        if (!anim_available)
+            return;
         animCube.runCodedTurn(code);
         while(animCube.isAnimating());
     }

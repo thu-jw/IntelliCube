@@ -8,7 +8,29 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!-- 左边的箭头指示-->
+    <style name="left_Drawer_Arrow_Style" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
 
-    <!--</style>-->
+    <!--溢出菜单文字样式-->
+    <style name="Overflow_Menu_Text_style" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ToolBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!-- 溢出菜单图标颜色-->
+        <item name="colorControlNormal">@android:color/white</item>
+        <!-- 左边箭头 -->
+        <item name="drawerArrowStyle">@style/left_Drawer_Arrow_Style</item>
+        <!-- 溢出菜单文字颜色-->
+        <item name="textAppearanceLargePopupMenu">@style/Overflow_Menu_Text_style</item>
+    </style>
+
+
 </resources>

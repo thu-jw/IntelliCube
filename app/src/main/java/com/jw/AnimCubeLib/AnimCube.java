@@ -214,6 +214,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
     private OnCubeAnimationFinishedListener cubeAnimationFinishedListener;
     private boolean isDebuggable;
     public boolean isRotatable = false;
+
     private Handler mainThreadHandler = new Handler(Looper.getMainLooper()) {
         @Override
         public void handleMessage(Message msg) {
@@ -775,12 +776,12 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
     }
 
     public void runCodedTurn(int code){
-        int clockwise = code & 0x8;
+        int clockwise = code & 0x8 >> 3;
         int layerID = code & 0x7;
         String seq = new String("");
         switch (layerID){
             case 1:
-                seq = seq.concat("R");
+                seq = seq.concat("R'");
                 break;
             case 2:
                 seq = seq.concat("U");
@@ -804,6 +805,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
         if(clockwise == 1){
             seq = seq.concat("'");
         }
+        seq = seq.concat(" ");
         setMoveSequence(seq);
         startAnimation(AnimationMode.USER_DEFINE);
     }

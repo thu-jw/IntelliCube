@@ -12,6 +12,7 @@
         android:background="?attr/colorPrimary"
         app:titleTextColor="@android:color/white" />
 
+
     <FrameLayout
         android:id="@+id/fragment"
         android:layout_width="match_parent"
