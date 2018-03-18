@@ -33,6 +33,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.jw.application.RubikActivity;
 import com.jw.blesample.adapter.DeviceAdapter;
 import com.jw.blesample.comm.ObserverManager;
 import com.jw.blesample.operation.OperationActivity;
@@ -56,6 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final int REQUEST_CODE_OPEN_GPS = 1;
     private static final int REQUEST_CODE_PERMISSION_LOCATION = 2;
+    private static final boolean CUBE_ACTIVITY = true;
 
     private LinearLayout layout_setting;
     private TextView txt_setting;
@@ -161,9 +163,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onDetail(BleDevice bleDevice) {
                 if (BleManager.getInstance().isConnected(bleDevice)) {
-                    Intent intent = new Intent(MainActivity.this, OperationActivity.class);
-                    intent.putExtra(OperationActivity.KEY_DATA, bleDevice);
-                    startActivity(intent);
+                    if(CUBE_ACTIVITY){
+                        Intent intent = new Intent(MainActivity.this, RubikActivity.class);
+                        intent.putExtra(RubikActivity.KEY_DATA, bleDevice);
+                        startActivity(intent);
+                    }
+                    else {
+                        Intent intent = new Intent(MainActivity.this, OperationActivity.class);
+                        intent.putExtra(OperationActivity.KEY_DATA, bleDevice);
+                        startActivity(intent);
+                    }
                 }
             }
         });

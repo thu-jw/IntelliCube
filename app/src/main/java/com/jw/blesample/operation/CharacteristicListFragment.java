@@ -44,7 +44,7 @@ public class CharacteristicListFragment extends Fragment {
         listView_device.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                final BluetoothGattCharacteristic characteristic = mResultAdapter.getItem(position);
+                final BluetoothGattCharacteristic characteristic = mResultAdapter.getItem(position);//set characteritic here
                 final List<Integer> propList = new ArrayList<>();
                 List<String> propNameList = new ArrayList<>();
                 int charaProp = characteristic.getProperties();

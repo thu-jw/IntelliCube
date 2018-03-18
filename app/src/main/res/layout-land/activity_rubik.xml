@@ -9,36 +9,43 @@
     <com.jw.AnimCubeLib.AnimCube
         android:id="@+id/animcube"
         android:layout_width="match_parent"
-        android:layout_height="256dp"
+        android:layout_height="258dp"
         cube:backgroundColor="#300924"
         cube:debuggable="true"
         cube:editable="true"
+        cube:layout_constraintBottom_toTopOf="@+id/message"
         cube:layout_constraintEnd_toEndOf="parent"
-        cube:layout_constraintHorizontal_bias="0.0"
-        cube:layout_constraintLeft_toLeftOf="parent"
-        cube:layout_constraintRight_toRightOf="parent"
+        cube:layout_constraintEnd_toStartOf="@+id/message"
+        cube:layout_constraintHorizontal_bias="0.5"
         cube:layout_constraintStart_toStartOf="parent"
-        cube:layout_constraintTop_toTopOf="parent"
+        cube:layout_constraintTop_toBottomOf="@+id/cubeToolBar"
         cube:moves="R2' U M U' R2' U M' U'"
         cube:singleRotationSpeed="10" />
 
     <TextView
-        android:id="@+id/code"
+        android:id="@+id/message"
         android:layout_width="587dp"
-        android:layout_height="29dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/test_string"
+        android:layout_height="40dp"
+        android:text="Test"
         android:textAlignment="center"
         android:textSize="24sp"
         cube:layout_constraintBottom_toBottomOf="parent"
         cube:layout_constraintEnd_toEndOf="parent"
-        cube:layout_constraintHorizontal_bias="0.454"
-        cube:layout_constraintLeft_toLeftOf="parent"
-        cube:layout_constraintRight_toRightOf="parent"
+        cube:layout_constraintHorizontal_bias="0.5"
+        cube:layout_constraintStart_toEndOf="@+id/animcube"
         cube:layout_constraintStart_toStartOf="parent"
         cube:layout_constraintTop_toBottomOf="@+id/animcube" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/cubeToolBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        cube:layout_constraintBottom_toTopOf="@+id/animcube"
+        cube:layout_constraintEnd_toEndOf="parent"
+        cube:layout_constraintHorizontal_bias="0.5"
+        cube:layout_constraintStart_toStartOf="parent" />
     <!--cube:backFacesDistance="4"-->
 </android.support.constraint.ConstraintLayout>

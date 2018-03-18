@@ -154,7 +154,7 @@ public class OperationActivity extends AppCompatActivity implements Observer {
         return bluetoothGattService;
     }
 
-    public void setBluetoothGattService(BluetoothGattService bluetoothGattService) {
+    public void setBluetoothGattService(BluetoothGattService bluetoothGattService) {//service
         this.bluetoothGattService = bluetoothGattService;
     }
 
@@ -162,7 +162,7 @@ public class OperationActivity extends AppCompatActivity implements Observer {
         return characteristic;
     }
 
-    public void setCharacteristic(BluetoothGattCharacteristic characteristic) {
+    public void setCharacteristic(BluetoothGattCharacteristic characteristic) {//characteristic
         this.characteristic = characteristic;
     }
 

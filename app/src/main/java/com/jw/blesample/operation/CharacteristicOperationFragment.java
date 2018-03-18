@@ -306,6 +306,7 @@ public class CharacteristicOperationFragment extends Fragment {
                                                 runOnUiThread(new Runnable() {//here receive data
                                                     @Override
                                                     public void run() {
+                                                        //herr to get something
                                                         addText(txt, HexUtil.formatHexString(characteristic.getValue(), true));
                                                     }
                                                 });
@@ -335,6 +336,7 @@ public class CharacteristicOperationFragment extends Fragment {
     }
 
     private void addText(TextView textView, String content) {
+        // here to turn the cube
         textView.append(content);
         textView.append("\n");
         int offset = textView.getLineCount() * textView.getLineHeight();
