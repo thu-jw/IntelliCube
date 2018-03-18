@@ -213,7 +213,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
     private OnCubeModelUpdatedListener cubeModelUpdatedListener;
     private OnCubeAnimationFinishedListener cubeAnimationFinishedListener;
     private boolean isDebuggable;
-    public boolean isRotatable = false;
+    public static boolean isRotatable = false;
 
     private Handler mainThreadHandler = new Handler(Looper.getMainLooper()) {
         @Override

@@ -31,6 +31,7 @@ import java.util.UUID;
 public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeModelUpdatedListener, AnimCube.OnCubeAnimationFinishedListener, Observer{
 
     public static final String KEY_DATA = "key_data";
+    public static final String RUN_MODE = "run_mode";
     private static final UUID uuidService = UUID.fromString("6e400001-b5a3-f393-e0a9-e50e24dcca9e");
     private static final UUID uuidCharacter = UUID.fromString("6e400003-b5a3-f393-e0a9-e50e24dcca9e");
 
@@ -55,6 +56,7 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
 
     private int available_codes[] = {1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14};
     private Random random = new Random(1);
+    private int MODE;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,12 +74,22 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
-        menuInflater.inflate(R.menu.menu, menu);
+        if (MODE == 1){
+            menuInflater.inflate(R.menu.game_menu, menu);
+        }
+        else if (MODE == 2){
+            menuInflater.inflate(R.menu.menu, menu);
+        }
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        if (MODE == 1 && item.getItemId() == R.id.reset)
+        {
+            animCube.resetToInitialState();
+            return super.onOptionsItemSelected(item);
+        }
         switch (item.getItemId()) {
             case R.id.start:
                 anim_available = true;
@@ -168,20 +180,35 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
     }
 
     private void initData(){
+        MODE = getIntent().getIntExtra(RUN_MODE, 1);
+        if (MODE == 1){
+            AnimCube.isRotatable = true;
+            return;
+        }
         bleDevice = getIntent().getParcelableExtra(KEY_DATA);
         if (bleDevice == null)
             finish();
     }
 
     private void initView() {
-        setContentView(R.layout.activity_rubik);
-        message = (TextView) findViewById(R.id.message);
+        if (MODE == 1)
+        {
+            setContentView(R.layout.activity_game);
+        }
+        else if (MODE == 2)
+        {
+            setContentView(R.layout.activity_rubik);
+            message = (TextView) findViewById(R.id.message);
+        }
         toolbar = findViewById(R.id.cubeToolBar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     private void initBLE(){
+        if (MODE == 1){
+            return;
+        }
         BluetoothGatt gatt = BleManager.getInstance().getBluetoothGatt(bleDevice);
         bluetoothGattService = gatt.getService(uuidService);
         characteristic = bluetoothGattService.getCharacteristic(uuidCharacter);

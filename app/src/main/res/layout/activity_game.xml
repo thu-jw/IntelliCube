@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cube="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jw.application.RubikActivity">
+
+    <com.jw.AnimCubeLib.AnimCube
+        android:id="@+id/animcube"
+        android:layout_width="match_parent"
+        android:layout_height="521dp"
+        cube:backgroundColor="@color/ubuntuTheme"
+        cube:debuggable="true"
+        cube:editable="true"
+        cube:layout_constraintBottom_toBottomOf="parent"
+        cube:layout_constraintHorizontal_bias="0.0"
+        cube:layout_constraintLeft_toLeftOf="parent"
+        cube:layout_constraintRight_toRightOf="parent"
+        cube:layout_constraintTop_toBottomOf="@+id/cubeToolBar"
+        cube:moves="R2' U M U' R2' U M' U'"
+        cube:singleRotationSpeed="6" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/cubeToolBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        cube:layout_constraintBottom_toTopOf="@+id/animcube"
+        cube:layout_constraintEnd_toEndOf="parent"
+        cube:layout_constraintLeft_toLeftOf="parent"
+        cube:layout_constraintStart_toStartOf="parent"
+        cube:layout_constraintTop_toTopOf="parent"
+        cube:titleTextColor="@android:color/white"
+        cube:theme = "@style/ToolBarTheme">
+    </android.support.v7.widget.Toolbar>
+
+</android.support.constraint.ConstraintLayout>

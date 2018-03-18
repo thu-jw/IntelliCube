@@ -13,6 +13,11 @@
     <string name="stop_scan">停止扫描</string>
     <string name="expand_mode_settings">展开模式设置</string>
     <string name="retrieve_mode_settings">收起模式设置</string>
+
+    <string name="game">魔方游戏</string>
+    <string name="sensor">智能魔方</string>
+    <string name="alarm">魔方闹钟</string>
+
     <string name="connect_fail">连接失败</string>
     <string name="active_disconnected">断开了</string>
     <string name="disconnected">连接断开</string>
@@ -31,7 +36,7 @@
     <string name="mac">MAC:</string>
     <string name="service">服务</string>
     <string name="type">服务类型(主服务)</string>
-    <string name="scan_setting">在下面你可以配置需要扫描的设备的条件，可以为空</string>
+    <string name="scan_setting">请选择模式</string>
     <string name="setting_name">输入蓝牙设备广播名，多个之间以英文逗号隔开</string>
     <string name="setting_mac">输入蓝牙设备mac地址</string>
     <string name="setting_uuid">输入蓝牙设备UUID，多个之间以英文逗号隔开</string>

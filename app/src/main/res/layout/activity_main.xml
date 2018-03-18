@@ -33,41 +33,32 @@
             android:textColor="@color/colorPrimaryDark"
             android:textSize="12sp" />
 
-        <EditText
-            android:id="@+id/et_name"
+        <RadioGroup
+            android:id="@+id/mode_group"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/setting_name"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:textSize="13sp" />
+            android:layout_height="match_parent">
 
-        <EditText
-            android:id="@+id/et_mac"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/setting_mac"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:textSize="13sp" />
+            <RadioButton
+                android:id="@+id/game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/game" />
 
-        <EditText
-            android:id="@+id/et_uuid"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/setting_uuid"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:textSize="13sp" />
+            <RadioButton
+                android:id="@+id/sensor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sensor" />
 
-        <Switch
-            android:id="@+id/sw_auto"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:text="AutoConnect ?"
-            android:textSize="13sp" />
+            <RadioButton
+                android:id="@+id/alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/alarm" />
+        </RadioGroup>
 
     </LinearLayout>
 

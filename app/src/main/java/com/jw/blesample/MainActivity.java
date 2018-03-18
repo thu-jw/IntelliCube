@@ -127,10 +127,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_scan.setText(getString(R.string.start_scan));
         btn_scan.setOnClickListener(this);
 
-        et_name = (EditText) findViewById(R.id.et_name);
-        et_mac = (EditText) findViewById(R.id.et_mac);
-        et_uuid = (EditText) findViewById(R.id.et_uuid);
-        sw_auto = (Switch) findViewById(R.id.sw_auto);
+//        et_name = (EditText) findViewById(R.id.et_name);
+//        et_mac = (EditText) findViewById(R.id.et_mac);
+//        et_uuid = (EditText) findViewById(R.id.et_uuid);
+//        sw_auto = (Switch) findViewById(R.id.sw_auto);
 
         layout_setting = (LinearLayout) findViewById(R.id.layout_setting);
         txt_setting = (TextView) findViewById(R.id.txt_setting);
