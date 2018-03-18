@@ -20,15 +20,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/adapter/DeviceAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/adapter/DeviceAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/operation/ServiceListFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/operation/ServiceListFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_rubik.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_rubik.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="menu.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu.xml">
           <provider editor-type-id="android-designer2">
             <state />
@@ -94,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="264">
+              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -117,10 +110,10 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-994">
-              <caret line="376" column="9" lean-forward="false" selection-start-line="376" selection-start-column="9" selection-end-line="376" selection-end-column="9" />
+            <state relative-caret-position="626">
+              <caret line="424" column="30" lean-forward="false" selection-start-line="424" selection-start-column="30" selection-end-line="424" selection-end-column="30" />
               <folding>
-                <element signature="e#3823#3865#0" expanded="true" />
+                <element signature="e#3823#3863#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,8 +125,8 @@
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="91" column="10" lean-forward="false" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
+            <state relative-caret-position="27">
+              <caret line="89" column="47" lean-forward="false" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -155,8 +148,8 @@
       <file leaf-file-name="DeviceAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/adapter/DeviceAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="113" column="13" lean-forward="false" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="112" column="41" lean-forward="false" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -176,9 +169,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cube_customed</find>
-      <find>cube_custome</find>
-      <find>cube_custom</find>
       <find>cube_custo</find>
       <find>cube_cust</find>
       <find>cube_cus</find>
@@ -206,6 +196,9 @@
       <find>R</find>
       <find>R.id.txt_n</find>
       <find>R.id.txt_name</find>
+      <find>z</find>
+      <find>展开</find>
+      <find>txt_name.set</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -2792,7 +2785,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/operation/OperationActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_operation.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml" />
@@ -2802,9 +2794,10 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/operation/ServiceListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/adapter/DeviceAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu.xml" />
       </list>
     </option>
   </component>
@@ -3212,6 +3205,7 @@
     <property name="SearchEverywhereHistoryKey" value="Android &#9;ACTION&#9;Android.RunDdms&#10;Mani&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/src/main/AndroidManifest.xml&#10;Rubi&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/src/main/java/com/jw/application/RubikActivity.java&#10;R.java&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/build/generated/source/r/debug/com/jw/application/R.java&#10;R.jav&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/build/generated/source/r/debug/com/catalinjurjiu/application/R.java&#10;Android De&#9;ACTION&#9;Android.RunDdms&#10;Devi Monitor&#9;ACTION&#9;Android.RunDdms&#10;Android Montitor&#9;null&#9;null&#10;Moni&#9;PSI&#9;JAVA://sun.java2d.marlin.stats.Monitor" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.profiler.active" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -3301,7 +3295,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521383669129" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521385594617" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3349,7 +3343,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521383669130" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521385594617" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3381,6 +3375,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -3476,7 +3491,7 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="Pixel_XL_API_P" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
@@ -3511,7 +3526,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521383669137" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521385594622" />
       </method>
     </configuration>
     <list size="1">
@@ -3552,20 +3567,29 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33014354" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33014354" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.114832535" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41267943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3637,7 +3661,7 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="40" />
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3935,9 +3959,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="913" column="96" lean-forward="false" selection-start-line="913" selection-start-column="96" selection-end-line="913" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4014,27 +4036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-994">
-          <caret line="376" column="9" lean-forward="false" selection-start-line="376" selection-start-column="9" selection-end-line="376" selection-end-column="9" />
-          <folding>
-            <element signature="e#3823#3865#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="91" column="10" lean-forward="false" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/adapter_device.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -4042,14 +4043,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/adapter/DeviceAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="113" column="13" lean-forward="false" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -4073,14 +4066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -4094,6 +4079,43 @@
             <element signature="e#591#610#0" expanded="true" />
             <element signature="e#718#740#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="89" column="47" lean-forward="false" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="424" column="30" lean-forward="false" selection-start-line="424" selection-start-column="30" selection-end-line="424" selection-end-column="30" />
+          <folding>
+            <element signature="e#3823#3863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/adapter/DeviceAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="112" column="41" lean-forward="false" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

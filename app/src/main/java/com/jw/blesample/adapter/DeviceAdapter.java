@@ -108,11 +108,11 @@ public class DeviceAdapter extends BaseAdapter {
             String name = bleDevice.getName();
             String mac = bleDevice.getMac();
             int rssi = bleDevice.getRssi();
-            if (name.equals("CubeAlarm"))
+            if (mac.equals("F0:A6:55:92:E4:3D"))//F0:A6:55:92:E4:3D
             {
-                name = "IntelliCube";
+                holder.txt_name.setText("IntelliCube");
             }
-            holder.txt_name.setText(name);
+            else holder.txt_name.setText(name);
             holder.txt_mac.setText(mac);
             holder.txt_rssi.setText(String.valueOf(rssi));
             if (isConnected) {

@@ -11,8 +11,8 @@
 
     <string name="start_scan">开始扫描</string>
     <string name="stop_scan">停止扫描</string>
-    <string name="expand_search_settings">展开搜索设置</string>
-    <string name="retrieve_search_settings">收起搜索设置</string>
+    <string name="expand_mode_settings">展开模式设置</string>
+    <string name="retrieve_mode_settings">收起模式设置</string>
     <string name="connect_fail">连接失败</string>
     <string name="active_disconnected">断开了</string>
     <string name="disconnected">连接断开</string>
