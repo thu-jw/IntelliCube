@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntelliCube</string>
+    <string name="play_button">Play the rubik</string>
+    <string name="test_string">Test</string>
+</resources>

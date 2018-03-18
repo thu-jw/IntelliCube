@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/play_forward"
+        android:title="Play"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/play_backward"
+        android:title="Play backward"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/stop"
+        android:title="Stop"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/one_move_forward"
+        android:title="1 Move Forward"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/one_move_backward"
+        android:title="1 Move Backward"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/reset"
+        android:title="Reset"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/save_state"
+        android:title="Save state"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/restore_state"
+        android:title="Restore state"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/Test"
+        android:title="Test" />
+</menu>

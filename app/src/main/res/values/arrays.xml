@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="custom_cube_colors">
+        <item>#ff6600</item>
+        <item>#ff0000</item>
+        <item>#ffffff</item>
+        <item>#ffff00</item>
+        <item>#00ff00</item>
+        <item>#0000ff</item>
+    </array>
+    <array name="cube_default_colors">
+        <item>#ffffff</item>
+        <item>#ffff00</item>
+        <item>#ff6020</item>
+        <item>#d00000</item>
+        <item>#2040d0</item>
+        <item>#009000</item>
+    </array>
+
+</resources>

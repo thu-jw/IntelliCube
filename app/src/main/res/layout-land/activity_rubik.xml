@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cube="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jw.application.RubikActivity">
+
+    <com.jw.AnimCubeLib.AnimCube
+        android:id="@+id/animcube"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        cube:backgroundColor="#300924"
+        cube:debuggable="true"
+        cube:editable="true"
+        cube:layout_constraintEnd_toEndOf="parent"
+        cube:layout_constraintHorizontal_bias="0.0"
+        cube:layout_constraintLeft_toLeftOf="parent"
+        cube:layout_constraintRight_toRightOf="parent"
+        cube:layout_constraintStart_toStartOf="parent"
+        cube:layout_constraintTop_toTopOf="parent"
+        cube:moves="R2' U M U' R2' U M' U'"
+        cube:singleRotationSpeed="10" />
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="587dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/test_string"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        cube:layout_constraintBottom_toBottomOf="parent"
+        cube:layout_constraintEnd_toEndOf="parent"
+        cube:layout_constraintHorizontal_bias="0.454"
+        cube:layout_constraintLeft_toLeftOf="parent"
+        cube:layout_constraintRight_toRightOf="parent"
+        cube:layout_constraintStart_toStartOf="parent"
+        cube:layout_constraintTop_toBottomOf="@+id/animcube" />
+    <!--cube:backFacesDistance="4"-->
+</android.support.constraint.ConstraintLayout>
