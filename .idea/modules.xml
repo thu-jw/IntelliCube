@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FastBleLib/FastBleLib.iml" filepath="$PROJECT_DIR$/FastBleLib/FastBleLib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/VisualCube.iml" filepath="$PROJECT_DIR$/VisualCube.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntelliCube.iml" filepath="$PROJECT_DIR$/IntelliCube.iml" />
+      <module fileurl="file://D:\AndroidProjects\IntelliCube\VisualCube.iml" filepath="D:\AndroidProjects\IntelliCube\VisualCube.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

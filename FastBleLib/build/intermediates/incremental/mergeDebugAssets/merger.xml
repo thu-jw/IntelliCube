@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\AndroidProjects\VisualCube\FastBleLib\src\main\assets"/><source path="D:\AndroidProjects\VisualCube\FastBleLib\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\AndroidProjects\VisualCube\FastBleLib\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\AndroidProjects\IntelliCube\FastBleLib\src\main\assets"/><source path="D:\AndroidProjects\IntelliCube\FastBleLib\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\AndroidProjects\IntelliCube\FastBleLib\src\debug\assets"/></dataSet></merger>
