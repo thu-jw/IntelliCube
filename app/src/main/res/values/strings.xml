@@ -40,4 +40,10 @@
     <string name="connected">已连接</string>
     <string name="disconnect">断开连接</string>
     <string name="enter">进入操作</string>
+
+    <string name="cube_start">开始</string>>
+    <string name="cube_stop">停止</string>>
+    <string name="cube_reset">重置</string>>
+    <string name="cube_save">保存状态</string>
+    <string name="cube_restore">提取状态</string>
 </resources>

@@ -10,7 +10,7 @@
         android:id="@+id/animcube"
         android:layout_width="match_parent"
         android:layout_height="470dp"
-        cube:backgroundColor="#300924"
+        cube:backgroundColor="@color/ubuntuTheme"
         cube:debuggable="true"
         cube:editable="true"
         cube:layout_constraintBottom_toTopOf="@+id/message"

@@ -11,7 +11,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,6 +25,7 @@ import com.jw.fastble.utils.HexUtil;
 
 import org.w3c.dom.Text;
 
+import java.util.Random;
 import java.util.UUID;
 
 public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeModelUpdatedListener, AnimCube.OnCubeAnimationFinishedListener, Observer{
@@ -40,7 +40,7 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
     private static final String TAG = "AnimCubeActivity";
     private boolean anim_available = false;
     private boolean isRestorable = false;
-    public int turnCode = 0x1;
+//    public int turnCode = 0x1;
     private AnimCube animCube;
     private Bundle state;
 
@@ -52,6 +52,9 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
 
     private Toolbar toolbar;
     private TextView message;
+
+    private int available_codes[] = {1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14};
+    private Random random = new Random(1);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -214,9 +217,17 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                int code = byteArrayToInt(characteristic.getValue());
+
+//                                int code = characteristic.getValue()[0] & random.nextInt();
+                                int code = random.nextInt(16);
+                                code = code % 16;
+                                code = (code < 0) ? code + 16 : code;
+                                code = (code < 12) ? available_codes[code] : 0;
+                                if (code != 0)
                                 runTurn(code);
-                                setMessage(HexUtil.formatHexString(characteristic.getValue()));
+
+//                                setMessage(HexUtil.formatHexString(characteristic.getValue()));
+                                setMessage(String.valueOf(code));
                             }
                         });
                     }

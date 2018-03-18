@@ -66,6 +66,7 @@ public class ServiceListFragment extends Fragment {
 
         mResultAdapter.clear();
         for (BluetoothGattService service : gatt.getServices()) {
+//            if service.get
             mResultAdapter.addResult(service);
         }
         mResultAdapter.notifyDataSetChanged();

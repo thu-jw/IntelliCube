@@ -776,12 +776,20 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
     }
 
     public void runCodedTurn(int code){
-        int clockwise = code & 0x8 >> 3;
+
+        int clockwise = (code & 0x8) >> 3;
         int layerID = code & 0x7;
+        String mess = new String("code: ");
+        mess = mess.concat(String.valueOf(code));
+        mess =mess.concat("  clockwise: ");
+        mess =mess.concat(String.valueOf(clockwise));
+        mess =mess.concat("  layerID: ");
+        mess =mess.concat(String.valueOf(layerID));
+        Log.d(TAG, mess);
         String seq = new String("");
         switch (layerID){
             case 1:
-                seq = seq.concat("R'");
+                seq = seq.concat("R");
                 break;
             case 2:
                 seq = seq.concat("U");
@@ -805,7 +813,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
         if(clockwise == 1){
             seq = seq.concat("'");
         }
-        seq = seq.concat(" ");
+//        seq = seq.concat(" ");
         setMoveSequence(seq);
         startAnimation(AnimationMode.USER_DEFINE);
     }
