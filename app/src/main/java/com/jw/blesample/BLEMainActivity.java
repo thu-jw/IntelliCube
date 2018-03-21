@@ -52,9 +52,9 @@ import java.util.UUID;
 import com.jw.application.R;
 
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class BLEMainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private static final String TAG = MainActivity.class.getSimpleName();
+    private static final String TAG = BLEMainActivity.class.getSimpleName();
     private static final int REQUEST_CODE_OPEN_GPS = 1;
     private static final int REQUEST_CODE_PERMISSION_LOCATION = 2;
     private static final boolean CUBE_ACTIVITY = true;
@@ -164,12 +164,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onDetail(BleDevice bleDevice) {
                 if (BleManager.getInstance().isConnected(bleDevice)) {
                     if(CUBE_ACTIVITY){
-                        Intent intent = new Intent(MainActivity.this, RubikActivity.class);
+                        Intent intent = new Intent(BLEMainActivity.this, RubikActivity.class);
                         intent.putExtra(RubikActivity.KEY_DATA, bleDevice);
                         startActivity(intent);
                     }
                     else {
-                        Intent intent = new Intent(MainActivity.this, OperationActivity.class);
+                        Intent intent = new Intent(BLEMainActivity.this, OperationActivity.class);
                         intent.putExtra(OperationActivity.KEY_DATA, bleDevice);
                         startActivity(intent);
                     }
@@ -277,7 +277,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 img_loading.setVisibility(View.INVISIBLE);
                 btn_scan.setText(getString(R.string.start_scan));
                 progressDialog.dismiss();
-                Toast.makeText(MainActivity.this, getString(R.string.connect_fail), Toast.LENGTH_LONG).show();
+                Toast.makeText(BLEMainActivity.this, getString(R.string.connect_fail), Toast.LENGTH_LONG).show();
             }
 
             @Override
@@ -298,9 +298,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 mDeviceAdapter.notifyDataSetChanged();
 
                 if (isActiveDisConnected) {
-                    Toast.makeText(MainActivity.this, getString(R.string.active_disconnected), Toast.LENGTH_LONG).show();
+                    Toast.makeText(BLEMainActivity.this, getString(R.string.active_disconnected), Toast.LENGTH_LONG).show();
                 } else {
-                    Toast.makeText(MainActivity.this, getString(R.string.disconnected), Toast.LENGTH_LONG).show();
+                    Toast.makeText(BLEMainActivity.this, getString(R.string.disconnected), Toast.LENGTH_LONG).show();
                     ObserverManager.getInstance().notifyObserver(bleDevice);
                 }
 

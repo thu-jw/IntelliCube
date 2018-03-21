@@ -21,6 +21,10 @@ import android.view.View;
 import android.util.Log;
 import com.jw.application.R;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Random;
+
 import static com.jw.AnimCubeLib.CubeConstants.AnimationMode;
 import static com.jw.AnimCubeLib.CubeConstants.ComputationLogic.adjacentFaces;
 import static com.jw.AnimCubeLib.CubeConstants.ComputationLogic.areaDirs;
@@ -214,6 +218,10 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
     private OnCubeAnimationFinishedListener cubeAnimationFinishedListener;
     private boolean isDebuggable;
     public static boolean isRotatable = false;
+
+    private int scrambleSteps;
+    private Random random = new Random(System.currentTimeMillis());
+    private final int available_codes[] = {1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14};
 
     private Handler mainThreadHandler = new Handler(Looper.getMainLooper()) {
         @Override
@@ -775,45 +783,10 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
         }
     }
 
-    public void runCodedTurn(int code){
-
-        int clockwise = (code & 0x8) >> 3;
-        int layerID = code & 0x7;
-        String mess = new String("code: ");
-        mess = mess.concat(String.valueOf(code));
-        mess =mess.concat("  clockwise: ");
-        mess =mess.concat(String.valueOf(clockwise));
-        mess =mess.concat("  layerID: ");
-        mess =mess.concat(String.valueOf(layerID));
-        Log.d(TAG, mess);
-        String seq = new String("");
-        switch (layerID){
-            case 1:
-                seq = seq.concat("R");
-                break;
-            case 2:
-                seq = seq.concat("U");
-                break;
-            case 3:
-                seq = seq.concat("F");
-                break;
-            case 4:
-                seq = seq.concat("L");
-                break;
-            case 5:
-                seq = seq.concat("D");
-                break;
-            case 6:
-                seq = seq.concat("B");
-                break;
-        }
+    public void runMoveSequence(String seq){
         if (seq.equals("")){
             return;
         }
-        if(clockwise == 1){
-            seq = seq.concat("'");
-        }
-//        seq = seq.concat(" ");
         setMoveSequence(seq);
         startAnimation(AnimationMode.USER_DEFINE);
     }
@@ -884,6 +857,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
         initSingleRotationSpeed(attributes);
         initDoubleRotationSpeed(attributes);
         initDebuggable(attributes);
+        initScrambleSteps(attributes);
         //done, recycle typed array
         attributes.recycle();
 
@@ -1019,6 +993,9 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
         this.doubleSpeed = attributes.getInt(R.styleable.AnimCube_doubleRotationSpeed, this.speed * 3 / 2);
     }
 
+    private void initScrambleSteps(TypedArray attributes){
+        this.scrambleSteps = attributes.getInt(R.styleable.AnimCube_scrambleSteps, 20);
+    }
     /**
      * <p>
      * Begins performing the moves specified through {@link #setMoveSequence(String)}.
@@ -2002,5 +1979,81 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
          * </p>
          */
         void onAnimationFinished();
+    }
+
+    public boolean checkFinished() {
+        int [][] test = cube;
+        for (int i = 0; i < cube.length; i++){
+            if (!Arrays.equals(cube[i], initialCube[i])){
+                return false;
+            }
+        }
+        return true;
+    }
+
+
+    private String decode(int []codes){
+        String seq = "";
+        for (int code : codes){
+            seq = seq.concat(decode(code));
+        }
+        return seq;
+    }
+
+    public String decode(int code){
+        int clockwise = (code & 0x8) >> 3;
+        int layerID = code & 0x7;
+        String seq = "";
+        switch (layerID){
+            case 1:
+                seq = seq.concat("R");
+                break;
+            case 2:
+                seq = seq.concat("U");
+                break;
+            case 3:
+                seq = seq.concat("F");
+                break;
+            case 4:
+                seq = seq.concat("L");
+                break;
+            case 5:
+                seq = seq.concat("D");
+                break;
+            case 6:
+                seq = seq.concat("B");
+                break;
+        }
+        if (seq.equals("")){
+            return "\n";
+        }
+        if(clockwise == 1){
+            seq = seq.concat("'");
+        }
+        return seq;
+    }
+
+    private int[] scrambleGenerator(){
+        int count = 0;
+        int []steps = new int[scrambleSteps];
+        int step = -1;
+        int temp ;
+        while (count < scrambleSteps){
+            temp = available_codes[random.nextInt(12)];
+            if (step == temp || Math.abs(step - temp) == 8){
+                continue;
+            }
+            step = temp;
+            steps[count++] = step;
+        }
+        return steps;
+    }
+
+    public String scramble(){
+        int[] codes = scrambleGenerator();
+        String seq = decode(codes);
+        Log.v(TAG, seq);
+        runMoveSequence(seq);
+        return seq;
     }
 }

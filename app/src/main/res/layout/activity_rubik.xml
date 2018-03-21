@@ -9,45 +9,43 @@
     <com.jw.AnimCubeLib.AnimCube
         android:id="@+id/animcube"
         android:layout_width="match_parent"
-        android:layout_height="470dp"
+        android:layout_height="434dp"
         cube:backgroundColor="@color/ubuntuTheme"
         cube:debuggable="true"
         cube:editable="true"
         cube:layout_constraintBottom_toTopOf="@+id/message"
-        cube:layout_constraintHorizontal_bias="0.5"
-        cube:layout_constraintLeft_toLeftOf="parent"
-        cube:layout_constraintRight_toRightOf="parent"
+        cube:layout_constraintEnd_toEndOf="parent"
+        cube:layout_constraintStart_toStartOf="parent"
         cube:layout_constraintTop_toBottomOf="@+id/cubeToolBar"
         cube:moves="R2' U M U' R2' U M' U'"
         cube:singleRotationSpeed="6" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/cubeToolBar"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         cube:layout_constraintBottom_toTopOf="@+id/animcube"
         cube:layout_constraintEnd_toEndOf="parent"
-        cube:layout_constraintLeft_toLeftOf="parent"
         cube:layout_constraintStart_toStartOf="parent"
-        cube:layout_constraintTop_toTopOf="parent"
-        cube:titleTextColor="@android:color/white"
-        cube:theme = "@style/ToolBarTheme">
-    </android.support.v7.widget.Toolbar>
+        cube:theme="@style/ToolBarTheme"
+        cube:titleTextColor="@android:color/white"></android.support.v7.widget.Toolbar>
 
     <TextView
         android:id="@+id/message"
-        android:layout_width="255dp"
-        android:layout_height="0dp"
-        android:gravity="center"
-        android:text="TextView"
-        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:fadeScrollbars="false"
+        android:gravity="top|center"
+        android:scrollbars="vertical"
+        android:textSize="24sp"
         cube:layout_constraintBottom_toBottomOf="parent"
-        cube:layout_constraintHorizontal_bias="0.503"
-        cube:layout_constraintLeft_toLeftOf="parent"
-        cube:layout_constraintRight_toRightOf="parent"
+        cube:layout_constraintEnd_toEndOf="parent"
+        cube:layout_constraintStart_toStartOf="parent"
         cube:layout_constraintTop_toBottomOf="@+id/animcube" />
 
     <!--<com.jw.AnimCubeLib.AnimCube-->

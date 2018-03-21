@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <!--<activity android:name="com.jw.blesample.MainActivity"-->
+        <!--<activity android:nacom.jw.blesample.BLEMainActivityityvity"-->
             <!--android:configChanges="orientation|keyboardHidden|screenSize">-->
         <!--</activity>-->
 
@@ -22,9 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.jw.application.RubikActivity"
-            android:parentActivityName=".MainActivity">
-        </activity>
-        <activity android:name="com.jw.blesample.operation.OperationActivity"
+            android:parentActivityName="com.jw.application.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
         </activity>
     </application>

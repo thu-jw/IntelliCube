@@ -35,6 +35,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.jw.blesample.BLEMainActivity;
 import com.jw.blesample.adapter.DeviceAdapter;
 import com.jw.blesample.comm.ObserverManager;
 import com.jw.blesample.operation.OperationActivity;
@@ -53,7 +54,7 @@ import java.util.UUID;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    public static final String TAG = com.jw.blesample.MainActivity.class.getSimpleName();
+    public static final String TAG = BLEMainActivity.class.getSimpleName();
     private static final int REQUEST_CODE_OPEN_GPS = 1;
     private static final int REQUEST_CODE_PERMISSION_LOCATION = 2;
     private static final boolean CUBE_ACTIVITY = true;
@@ -70,10 +71,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Animation operatingAnim;
     private DeviceAdapter mDeviceAdapter;
     private ProgressDialog progressDialog;
+    public static BleDevice mBleDevice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Log.e("tag", "create");
         setContentView(R.layout.activity_main);
         initView();
 
@@ -93,6 +97,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        Log.e("tag", "destroy");
         BleManager.getInstance().disconnectAllDevice();
         BleManager.getInstance().destroy();
     }
@@ -165,6 +170,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onDetail(BleDevice bleDevice) {
                 if (BleManager.getInstance().isConnected(bleDevice)) {
                     if(CUBE_ACTIVITY){
+//                        mBleDevice = bleDevice;
                         Intent intent = new Intent(MainActivity.this, RubikActivity.class);
                         intent.putExtra(RubikActivity.KEY_DATA, bleDevice);
                         intent.putExtra(RubikActivity.RUN_MODE, PROGRAME_MODE);
@@ -307,7 +313,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onConnectSuccess(BleDevice bleDevice, BluetoothGatt gatt, int status) {
                 progressDialog.dismiss();
-                mDeviceAdapter.addDevice(bleDevice);
+                mDeviceAdapter.clearExcept(bleDevice);
+//                mDeviceAdapter.addDevice(bleDevice);
                 mDeviceAdapter.notifyDataSetChanged();
 
                 readRssi(bleDevice);

@@ -6,228 +6,35 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="tag" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9b0b895-e190-46bf-b48f-209aa05b3bcf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/generated/source/buildConfig/androidTest/debug/com/jw/fastble/test/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/generated/source/r/androidTest/debug/com/jw/fastble/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/generated/source/r/androidTest/debug/com/jw/fastble/test/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/blame/res/androidTest/debug/multi-v2/debug.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/blame/res/androidTest/debug/multi-v2/values.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/manifest/androidTest/debug/output.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/res/androidTest/debug/output.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/res/androidTest/debug/resources-debugAndroidTest.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/res/symbol-table-with-package/androidTest/debug/package-aware-r.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/symbols/androidTest/debug/R.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VisualCube.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-10-10-33-908.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-10-10-33-908.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-10-11-21-736.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-10-11-21-736.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-10-11-58-457.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-10-11-58-457.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-10-13-45-109.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-10-13-45-109.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-10-16-13-593.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-10-16-13-593.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-10-16-41-005.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-10-16-41-005.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-10-20-41-848.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-10-20-41-848.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-11-06-18-131.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-11-06-18-131.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-11-07-01-395.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-11-07-01-395.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-11-10-01-193.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-11-10-01-193.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-11-53-42-121.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-11-53-42-121.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-11-58-32-827.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-11-58-32-827.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-05-13-541.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-05-13-541.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-06-11-198.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-06-11-198.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-08-15-951.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-08-15-951.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-10-04-272.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-10-04-272.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-16-08-530.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-16-08-530.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-19-49-163.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-19-49-163.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-20-04-504.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-20-04-504.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-30-41-707.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-30-41-707.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-32-38-496.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-32-38-496.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-39-49-541.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-39-49-541.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-40-49-454.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-40-49-454.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-41-29-900.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-12-41-29-900.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-13-30-56-548.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-13-30-56-548.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-08-29-582.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-08-29-582.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-09-15-879.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-09-15-879.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-16-08-958.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-16-08-958.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-22-32-694.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-22-32-694.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-25-50-739.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-25-50-739.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-26-09-834.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-26-09-834.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-28-06-521.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-28-06-521.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-36-58-279.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-36-58-279.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-37-16-060.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-37-16-060.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-39-03-925.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-14-39-03-925.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-04-15-594.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-04-15-594.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-05-38-827.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-05-38-827.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-08-05-609.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-08-05-609.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-13-26-365.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-13-26-365.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-31-27-286.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-31-27-286.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-32-26-616.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-32-26-616.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-51-44-016.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-51-44-016.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-53-37-366.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-15-53-37-366.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-00-41-402.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-00-41-402.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-02-24-895.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-02-24-895.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-03-31-473.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-03-31-473.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-04-20-165.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-04-20-165.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-12-18-613.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-12-18-613.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-20-56-330.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-20-56-330.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-22-18-276.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-22-18-276.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-31-12-375.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-31-12-375.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-31-48-597.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-31-48-597.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-42-15-629.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-42-15-629.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-43-04-777.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-43-04-777.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-43-39-541.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-43-39-541.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-44-58-122.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-44-58-122.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-47-22-704.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-47-22-704.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-54-05-971.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-54-05-971.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-54-56-112.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-54-56-112.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-55-12-446.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-16-55-12-446.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-00-42-413.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-00-42-413.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-05-33-232.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-05-33-232.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-10-51-436.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-10-51-436.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-12-39-895.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-12-39-895.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-22-54-735.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-22-54-735.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-24-11-604.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-24-11-604.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-32-18-833.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-32-18-833.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-33-42-809.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-33-42-809.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-43-13-854.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-17-43-13-854.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-19-16-000.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-19-16-000.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-19-38-355.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-19-38-355.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-24-48-107.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-24-48-107.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-36-04-256.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-36-04-256.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-46-08-140.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-46-08-140.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-49-46-182.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-49-46-182.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-52-04-281.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-52-04-281.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-55-21-074.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-55-21-074.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-55-42-024.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-18-55-42-024.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-07-44-895.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-07-44-895.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-08-25-561.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-08-25-561.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-13-03-939.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-13-03-939.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-15-10-347.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-15-10-347.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-21-38-244.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-21-38-244.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-25-33-197.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-25-33-197.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-27-10-911.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-27-10-911.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-28-33-208.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-28-33-208.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-29-54-573.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-19-29-54-573.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-22-20-21-832.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-22-20-21-832.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-22-20-44-894.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-22-20-44-894.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-22-34-20-433.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-18-22-34-20-433.rawproto" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterPath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/debug-mergeJavaRes/merge-state" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/debug-mergeJniLibs/merge-state" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FastBleLib/build/outputs/aar/FastBleLib-debug.aar" afterPath="$PROJECT_DIR$/FastBleLib/build/outputs/aar/FastBleLib-debug.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FastBleLib/FastBleLib.iml" afterPath="$PROJECT_DIR$/FastBleLib/FastBleLib.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/FastBleLib/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FastBleLib/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/FastBleLib/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/application/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/application/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/adapter/DeviceAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/adapter/DeviceAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_rubik.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_rubik.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_game.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_game.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/game_menu.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/game_menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/BLEMainActivity.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -251,41 +58,213 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RubikActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RubikActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3267">
-              <caret line="188" column="30" lean-forward="false" selection-start-line="188" selection-start-column="30" selection-end-line="188" selection-end-column="30" />
+            <state relative-caret-position="270">
+              <caret line="37" column="86" lean-forward="true" selection-start-line="37" selection-start-column="86" selection-end-line="37" selection-end-column="86" />
               <folding>
+                <element signature="method#onCreate#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#onCreateOptionsMenu#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#onOptionsItemSelected#0;class#RubikActivity#0" expanded="false" />
+                <element signature="e#2994#3052#0" expanded="false" />
                 <element signature="method#onSaveInstanceState#0;class#RubikActivity#0" expanded="false" />
                 <element signature="method#onRestoreInstanceState#0;class#RubikActivity#0" expanded="false" />
-                <element signature="method#onDestroy#0;class#RubikActivity#0" expanded="false" />
                 <element signature="method#onCubeModelUpdate#0;class#RubikActivity#0" expanded="false" />
                 <element signature="method#printCubeModel#0;class#RubikActivity#0" expanded="false" />
                 <element signature="method#disConnected#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#initData#0;class#RubikActivity#0" expanded="false" />
+                <element signature="e#7041#7178#0" expanded="true" />
+                <element signature="e#7177#7178#0" expanded="true" />
+                <element signature="method#initBLE#0;class#RubikActivity#0" expanded="false" />
+                <element signature="class#7753:9575" expanded="false" />
+                <element signature="method#onNotifySuccess#0;class#7753:9575" expanded="false" />
+                <element signature="method#onNotifyFailure#0;class#7753:9575" expanded="false" />
+                <element signature="method#onCharacteristicChanged#0;class#7753:9575" expanded="false" />
+                <element signature="method#setMessage#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#runTurn#0;class#RubikActivity#0" expanded="false" />
+                <element signature="e#10193#10237#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_game.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game.xml">
+      <file leaf-file-name="AnimCube.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-              <folding />
+            <state relative-caret-position="12015">
+              <caret line="2051" column="29" lean-forward="false" selection-start-line="2051" selection-start-column="29" selection-end-line="2051" selection-end-column="29" />
+              <folding>
+                <element signature="docComment;class#AnimCube#0" expanded="false" />
+                <element signature="class#11246:11854" expanded="false" />
+                <element signature="method#handleMessage#0;class#11246:11854" expanded="false" />
+                <element signature="class#12056:12754" expanded="false" />
+                <element signature="method#surfaceCreated#0;class#12056:12754" expanded="false" />
+                <element signature="method#surfaceChanged#0;class#12056:12754" expanded="false" />
+                <element signature="method#AnimCube#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#AnimCube#1;class#AnimCube#0" expanded="false" />
+                <element signature="method#AnimCube#2;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#getCubeModel#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#getCubeModel#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#setCubeModel#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#setCubeModel#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#setCubeModel#1;class#AnimCube#0" expanded="false" />
+                <element signature="method#setCubeModel#1;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#isEditable#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#setEditable#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#setBackFacesDistance#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#setBackFacesDistance#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#isAnimating#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#isAnimating#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#setSingleRotationSpeed#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#setSingleRotationSpeed#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#setDoubleRotationSpeed#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#setDoubleRotationSpeed#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#setDebuggable#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#setMoveSequence#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#resetToInitialState#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#resetToInitialState#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#animateMoveSequence#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#animateMoveSequenceReversed#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#animateMove#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#animateMoveReversed#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#applyMoveSequence#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#applyMoveSequenceReversed#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#applyMove#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#applyMoveReversed#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#stopAnimation#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#stopAnimation#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#setOnCubeModelUpdatedListener#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#setOnCubeModelUpdatedListener#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#setOnAnimationFinishedListener#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#setOnAnimationFinishedListener#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#saveState#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#saveState#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#restoreState#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#restoreState#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#cleanUpResources#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#cleanUpResources#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#onTouch#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#onDraw#0;class#AnimCube#0" expanded="false" />
+                <element signature="e#37669#37741#0" expanded="false" />
+                <element signature="method#initBackgroundColor#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#initCubeColors#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#initFaceletsContourColor#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#initCubeInitialState#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#initMoves#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#initEditable#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#initInitialRotation#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#initBackFacesDistance#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#initGestureSensitivity#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#initScale#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#initPerspective#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#startAnimation#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#startAnimation#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#performDraw#0;class#AnimCube#0" expanded="false" />
+                <element signature="e#46451#46470#0" expanded="false" />
+                <element signature="method#repaint#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#getMove#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#getMovePart#0;class#AnimCube#0" expanded="false" />
+                <element signature="e#52580#52592#0" expanded="false" />
+                <element signature="method#setupInitialViewAngle#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#setCubeInDefaultState#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#setStringCubeModelInternal#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#setBackFacesDistanceInternal#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#animateCube#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#stopAnimationAndDrawing#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#sleep#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#notifyHandlerCubeModelUpdated#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#notifyListenerCubeUpdatedOnMainThread#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#notifyHandlerAnimationFinished#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#notifyListenerAnimationFinishedOnMainThread#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#splitCube#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#twistLayers#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#twistLayer#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#fixBlock#0;class#AnimCube#0" expanded="false" />
+                <element signature="e#67819#67849#0" expanded="false" />
+                <element signature="e#72490#72520#0" expanded="false" />
+                <element signature="method#getCorners#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#handlePointerDownEvent#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#handlePointerUpEvent#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#handlePointerDragEvent#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#forceSetEye#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;class#OnCubeModelUpdatedListener#0;class#AnimCube#0" expanded="false" />
+                <element signature="class#OnCubeModelUpdatedListener#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#onCubeModelUpdate#0;class#OnCubeModelUpdatedListener#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;class#OnCubeAnimationFinishedListener#0;class#AnimCube#0" expanded="false" />
+                <element signature="class#OnCubeAnimationFinishedListener#0;class#AnimCube#0" expanded="false" />
+                <element signature="docComment;method#onAnimationFinished#0;class#OnCubeAnimationFinishedListener#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#checkFinished#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#decode#0;class#AnimCube#0" expanded="false" />
+                <element signature="method#decode#1;class#AnimCube#0" expanded="false" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="321" column="13" lean-forward="true" selection-start-line="321" selection-start-column="13" selection-end-line="321" selection-end-column="13" />
+              <folding>
+                <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#initView#0;class#MainActivity#0" expanded="false" />
+                <element signature="e#4575#4633#0" expanded="false" />
+                <element signature="class#5475:6920" expanded="false" />
+                <element signature="method#onConnect#0;class#5475:6920" expanded="false" />
+                <element signature="method#onDisConnect#0;class#5475:6920" expanded="false" />
+                <element signature="method#onDetail#0;class#5475:6920" expanded="false" />
+                <element signature="method#setScanRule#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#startScan#0;class#MainActivity#0" expanded="false" />
+                <element signature="class#9964:10992" expanded="false" />
+                <element signature="method#onScanStarted#0;class#9964:10992" expanded="false" />
+                <element signature="method#onScanning#0;class#9964:10992" expanded="false" />
+                <element signature="method#onScanFinished#0;class#9964:10992" expanded="false" />
+                <element signature="method#onConnectFail#0;class#11112:12819" expanded="false" />
+                <element signature="method#onDisConnected#0;class#11112:12819" expanded="false" />
+                <element signature="method#readRssi#0;class#MainActivity#0" expanded="false" />
+                <element signature="class#12935:13273" expanded="false" />
+                <element signature="method#onRssiFailure#0;class#12935:13273" expanded="false" />
+                <element signature="method#setMtu#0;class#MainActivity#0" expanded="false" />
+                <element signature="class#13399:13743" expanded="false" />
+                <element signature="method#onSetMTUFailure#0;class#13399:13743" expanded="false" />
+                <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#checkPermissions#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onPermissionGranted#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#checkGPSIsOpen#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OperationActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/operation/OperationActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="93" selection-end-column="11" />
+              <folding>
+                <element signature="method#onCreate#0;class#OperationActivity#0" expanded="false" />
+                <element signature="method#onDestroy#0;class#OperationActivity#0" expanded="false" />
+                <element signature="method#disConnected#0;class#OperationActivity#0" expanded="false" />
+                <element signature="e#3045#3077#0" expanded="true" />
+                <element signature="e#3095#3134#0" expanded="true" />
+                <element signature="e#3152#3179#0" expanded="true" />
+                <element signature="method#prepareFragment#0;class#OperationActivity#0" expanded="false" />
+                <element signature="method#updateFragment#0;class#OperationActivity#0" expanded="false" />
+                <element signature="method#setBluetoothGattService#0;class#OperationActivity#0" expanded="false" />
+                <element signature="method#setCharacteristic#0;class#OperationActivity#0" expanded="false" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="238">
+              <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -294,21 +273,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnimCube.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java">
+      <file leaf-file-name="activity_rubik.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4050">
-              <caret line="215" column="18" lean-forward="false" selection-start-line="215" selection-start-column="18" selection-end-line="215" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="1161">
+              <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -318,83 +287,44 @@
         </entry>
       </file>
       <file leaf-file-name="activity_rubik.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="25" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_rubik.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
+          <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/MainActivity.java">
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="185" column="21" lean-forward="false" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3406#3436#0" expanded="true" />
-                <element signature="e#3534#3563#0" expanded="true" />
-                <element signature="e#3875#3915#0" expanded="true" />
-                <element signature="e#4047#4089#0" expanded="true" />
-                <element signature="e#4365#4395#0" expanded="true" />
-                <element signature="e#4938#4978#0" expanded="true" />
-                <element signature="e#7713#7714#0" expanded="true" />
-                <element signature="e#10134#10163#0" expanded="true" />
-                <element signature="e#10753#10783#0" expanded="true" />
-                <element signature="e#11292#11322#0" expanded="true" />
-                <element signature="e#11417#11449#0" expanded="true" />
-                <element signature="e#12252#12291#0" expanded="true" />
-                <element signature="e#12399#12431#0" expanded="true" />
-                <element signature="e#14485#14521#0" expanded="true" />
-                <element signature="e#15682#15702#0" expanded="true" />
-                <element signature="e#15744#15765#0" expanded="true" />
-                <element signature="e#15814#15829#0" expanded="true" />
-                <element signature="e#15867#16187#0" expanded="true" />
-                <element signature="e#16186#16187#0" expanded="true" />
-                <element signature="e#16236#16252#0" expanded="true" />
-                <element signature="e#16290#16769#0" expanded="true" />
-                <element signature="e#16768#16769#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FastBleLib/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RadioGroup.class" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/SDK/android-sdk/android-sdk_r24.4.1-windows/android-sdk-windows/platforms/android-26/android.jar!/android/widget/RadioGroup.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2592">
-              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+            <state relative-caret-position="1377">
+              <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/MainActivity.java">
+      <file leaf-file-name="arrays.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2160">
-              <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="2" selection-end-line="132" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attrs.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -411,36 +341,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cube_costucustom_cube</find>
-      <find>cus</find>
-      <find>custom_cube</find>
-      <find>custom_cub</find>
-      <find>setMove</find>
-      <find>R</find>
-      <find>R.id.txt_n</find>
-      <find>R.id.txt_name</find>
-      <find>z</find>
-      <find>展开</find>
-      <find>txt_name.set</find>
-      <find>scan</find>
-      <find>break;</find>
-      <find>MODE = 1</find>
-      <find>put</find>
-      <find>putext</find>
-      <find>bleDevi</find>
-      <find>menu</find>
-      <find>Rotatable</find>
-      <find>isRotata</find>
-      <find>isRotatable</find>
-      <find>Rotat</find>
-      <find>startActi</find>
-      <find>initdata</find>
-      <find>intent</find>
-      <find>Visual</find>
-      <find>VisualCube</find>
-      <find>VisualCub</find>
-      <find>Intelli</find>
-      <find>IntelliCube</find>
+      <find>textView</find>
+      <find>code</find>
+      <find>initView</find>
+      <find>case</find>
+      <find>checkFii</find>
+      <find>clearE</find>
+      <find>gravi</find>
+      <find>random</find>
+      <find>ga</find>
+      <find>init</find>
+      <find>game_menu</find>
+      <find>back</find>
+      <find>backFace</find>
+      <find>backFaces</find>
+      <find>b</find>
+      <find>backgroundCol</find>
+      <find>backgroundColo</find>
+      <find>backgroundColor</find>
+      <find>startAnimation</find>
+      <find>random =</find>
+      <find>runMove</find>
+      <find>anim_av</find>
+      <find>initData</find>
+      <find>id.scr</find>
+      <find>bleD</find>
+      <find>on</find>
+      <find>onDes</find>
+      <find>Log.v</find>
+      <find>onKe</find>
+      <find>addDevice(</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -3027,20 +2957,21 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/operation/OperationActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_operation.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_rubik.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/operation/ServiceListFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/adapter/DeviceAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_game.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/game_menu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_rubik.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_game.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/game_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/application/MainActivity.java" />
       </list>
@@ -3068,6 +2999,123 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntelliCube" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntelliCube" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntelliCube" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="operation" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntelliCube" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntelliCube" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blesample" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntelliCube" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntelliCube" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3254,56 +3302,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IntelliCube" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FastBleLib" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IntelliCube" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FastBleLib" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IntelliCube" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
     <property name="android.sdk.path" value="E:/SDK/android-sdk/android-sdk_r24.4.1-windows/android-sdk-windows" />
     <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DCTimer-master/DCTimer-master" />
     <property name="device.picker.selection" value="KWG7N16607004278" />
-    <property name="SearchEverywhereHistoryKey" value="Android Device&#9;ACTION&#9;Android.RunDdms&#10;UserDefine&#9;PSI&#9;JAVA://com.jw.AnimCubeLib.CubeConstants.AnimationMode#USER_DEFINE&#10;Android &#9;ACTION&#9;Android.RunDdms&#10;Mani&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/src/main/AndroidManifest.xml&#10;Rubi&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/src/main/java/com/jw/application/RubikActivity.java&#10;R.java&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/build/generated/source/r/debug/com/jw/application/R.java&#10;R.jav&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/build/generated/source/r/debug/com/catalinjurjiu/application/R.java&#10;Android De&#9;ACTION&#9;Android.RunDdms&#10;Devi Monitor&#9;ACTION&#9;Android.RunDdms&#10;Android Montitor&#9;null&#9;null&#10;Moni&#9;PSI&#9;JAVA://sun.java2d.marlin.stats.Monitor" />
+    <property name="SearchEverywhereHistoryKey" value="Android Dev&#9;ACTION&#9;Android.RunDdms&#10;Android Device Mo&#9;ACTION&#9;Android.RunDdms&#10;Android Device M&#9;null&#9;null&#10;Android Device Mon&#9;ACTION&#9;Android.RunDdms&#10;Android Device &#9;ACTION&#9;Android.RunDdms&#10;Android Device&#9;ACTION&#9;Android.RunDdms&#10;UserDefine&#9;PSI&#9;JAVA://com.jw.AnimCubeLib.CubeConstants.AnimationMode#USER_DEFINE&#10;Android &#9;ACTION&#9;Android.RunDdms&#10;Mani&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/src/main/AndroidManifest.xml&#10;Rubi&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/src/main/java/com/jw/application/RubikActivity.java&#10;R.java&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/build/generated/source/r/debug/com/jw/application/R.java&#10;R.jav&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/build/generated/source/r/debug/com/catalinjurjiu/application/R.java&#10;Android De&#9;ACTION&#9;Android.RunDdms&#10;Devi Monitor&#9;ACTION&#9;Android.RunDdms&#10;Android Montitor&#9;null&#9;null&#10;Moni&#9;PSI&#9;JAVA://sun.java2d.marlin.stats.Monitor" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.profiler.active" value="true" />
@@ -3396,7 +3403,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521391919262" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521638024517" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3444,7 +3451,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521391919263" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521638024517" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3606,7 +3613,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521391919268" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521638024521" />
       </method>
     </configuration>
     <list size="1">
@@ -3658,6 +3665,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3669,16 +3677,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33373207" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33014354" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2207304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41267943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3691,6 +3698,7 @@
       <window_info id="StringPreview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3699,14 +3707,14 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33014354" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33014354" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41267943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41267943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="StringPreview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -3717,10 +3725,10 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33373207" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2207304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2207304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3735,24 +3743,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java</url>
-          <line>1574</line>
+          <line>1549</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/jw/application/MainActivity.java</url>
-          <line>193</line>
+          <line>198</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java</url>
-          <line>64</line>
-          <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="46" />
+      <option name="time" value="48" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3796,16 +3798,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_characteric_list.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_characteric_operation_button.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3827,16 +3819,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_service_list.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_characteric_operation.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -3877,7 +3859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="86" column="59" lean-forward="false" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3885,14 +3866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/operation/OperationActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3591">
-          <caret line="158" column="5" lean-forward="false" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3946,34 +3919,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="24" column="58" lean-forward="false" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_rubik.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -3984,18 +3933,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/rotate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/operation/ServiceListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4003,43 +3944,23 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="67" lean-forward="false" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/adapter/DeviceAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="112" column="41" lean-forward="false" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_operation.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -4053,13 +3974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/CubeConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-91">
@@ -4067,14 +3981,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/MainActivity.java" />
+    <entry file="jar://E:/SDK/android-sdk/android-sdk_r24.4.1-windows/android-sdk-windows/platforms/android-26/android.jar!/android/widget/RadioGroup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2592">
+          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FastBleLib/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="80" column="47" lean-forward="false" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+        <state relative-caret-position="-467">
+          <caret line="83" column="25" lean-forward="false" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
           <folding>
-            <element signature="e#1741#1755#0" expanded="false" />
-            <element signature="e#2002#2018#0" expanded="false" />
-            <element signature="e#2264#2279#0" expanded="false" />
+            <element signature="e#565#583#0" expanded="false" />
+            <element signature="e#3000#3020#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_characteric_list.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_characteric_operation.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#466#486#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4084,141 +4070,283 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/game_menu.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="2" selection-end-line="132" selection-end-column="56" />
+        <state relative-caret-position="216">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#228#246#0" expanded="false" />
+            <element signature="e#598#620#0" expanded="false" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://E:/SDK/android-sdk/android-sdk_r24.4.1-windows/android-sdk-windows/platforms/android-26/android.jar!/android/widget/RadioGroup.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2592">
-          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4050">
-          <caret line="215" column="18" lean-forward="false" selection-start-line="215" selection-start-column="18" selection-end-line="215" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3267">
-          <caret line="188" column="30" lean-forward="false" selection-start-line="188" selection-start-column="30" selection-end-line="188" selection-end-column="30" />
-          <folding>
-            <element signature="method#onSaveInstanceState#0;class#RubikActivity#0" expanded="false" />
-            <element signature="method#onRestoreInstanceState#0;class#RubikActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#RubikActivity#0" expanded="false" />
-            <element signature="method#onCubeModelUpdate#0;class#RubikActivity#0" expanded="false" />
-            <element signature="method#printCubeModel#0;class#RubikActivity#0" expanded="false" />
-            <element signature="method#disConnected#0;class#RubikActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="185" column="21" lean-forward="false" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3406#3436#0" expanded="true" />
-            <element signature="e#3534#3563#0" expanded="true" />
-            <element signature="e#3875#3915#0" expanded="true" />
-            <element signature="e#4047#4089#0" expanded="true" />
-            <element signature="e#4365#4395#0" expanded="true" />
-            <element signature="e#4938#4978#0" expanded="true" />
-            <element signature="e#7713#7714#0" expanded="true" />
-            <element signature="e#10134#10163#0" expanded="true" />
-            <element signature="e#10753#10783#0" expanded="true" />
-            <element signature="e#11292#11322#0" expanded="true" />
-            <element signature="e#11417#11449#0" expanded="true" />
-            <element signature="e#12252#12291#0" expanded="true" />
-            <element signature="e#12399#12431#0" expanded="true" />
-            <element signature="e#14485#14521#0" expanded="true" />
-            <element signature="e#15682#15702#0" expanded="true" />
-            <element signature="e#15744#15765#0" expanded="true" />
-            <element signature="e#15814#15829#0" expanded="true" />
-            <element signature="e#15867#16187#0" expanded="true" />
-            <element signature="e#16186#16187#0" expanded="true" />
-            <element signature="e#16236#16252#0" expanded="true" />
-            <element signature="e#16290#16769#0" expanded="true" />
-            <element signature="e#16768#16769#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FastBleLib/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/rotate.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_rubik.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/operation/OperationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="93" selection-end-column="11" />
+          <folding>
+            <element signature="method#onCreate#0;class#OperationActivity#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#OperationActivity#0" expanded="false" />
+            <element signature="method#disConnected#0;class#OperationActivity#0" expanded="false" />
+            <element signature="e#3045#3077#0" expanded="true" />
+            <element signature="e#3095#3134#0" expanded="true" />
+            <element signature="e#3152#3179#0" expanded="true" />
+            <element signature="method#prepareFragment#0;class#OperationActivity#0" expanded="false" />
+            <element signature="method#updateFragment#0;class#OperationActivity#0" expanded="false" />
+            <element signature="method#setBluetoothGattService#0;class#OperationActivity#0" expanded="false" />
+            <element signature="method#setCharacteristic#0;class#OperationActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12015">
+          <caret line="2051" column="29" lean-forward="false" selection-start-line="2051" selection-start-column="29" selection-end-line="2051" selection-end-column="29" />
+          <folding>
+            <element signature="docComment;class#AnimCube#0" expanded="false" />
+            <element signature="class#11246:11854" expanded="false" />
+            <element signature="method#handleMessage#0;class#11246:11854" expanded="false" />
+            <element signature="class#12056:12754" expanded="false" />
+            <element signature="method#surfaceCreated#0;class#12056:12754" expanded="false" />
+            <element signature="method#surfaceChanged#0;class#12056:12754" expanded="false" />
+            <element signature="method#AnimCube#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#AnimCube#1;class#AnimCube#0" expanded="false" />
+            <element signature="method#AnimCube#2;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#getCubeModel#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#getCubeModel#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#setCubeModel#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#setCubeModel#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#setCubeModel#1;class#AnimCube#0" expanded="false" />
+            <element signature="method#setCubeModel#1;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#isEditable#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#setEditable#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#setBackFacesDistance#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#setBackFacesDistance#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#isAnimating#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#isAnimating#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#setSingleRotationSpeed#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#setSingleRotationSpeed#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#setDoubleRotationSpeed#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#setDoubleRotationSpeed#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#setDebuggable#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#setMoveSequence#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#resetToInitialState#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#resetToInitialState#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#animateMoveSequence#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#animateMoveSequenceReversed#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#animateMove#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#animateMoveReversed#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#applyMoveSequence#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#applyMoveSequenceReversed#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#applyMove#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#applyMoveReversed#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#stopAnimation#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#stopAnimation#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#setOnCubeModelUpdatedListener#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#setOnCubeModelUpdatedListener#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#setOnAnimationFinishedListener#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#setOnAnimationFinishedListener#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#saveState#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#saveState#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#restoreState#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#restoreState#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#cleanUpResources#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#cleanUpResources#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#onTouch#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#onDraw#0;class#AnimCube#0" expanded="false" />
+            <element signature="e#37669#37741#0" expanded="false" />
+            <element signature="method#initBackgroundColor#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#initCubeColors#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#initFaceletsContourColor#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#initCubeInitialState#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#initMoves#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#initEditable#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#initInitialRotation#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#initBackFacesDistance#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#initGestureSensitivity#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#initScale#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#initPerspective#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#startAnimation#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#startAnimation#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#performDraw#0;class#AnimCube#0" expanded="false" />
+            <element signature="e#46451#46470#0" expanded="false" />
+            <element signature="method#repaint#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#getMove#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#getMovePart#0;class#AnimCube#0" expanded="false" />
+            <element signature="e#52580#52592#0" expanded="false" />
+            <element signature="method#setupInitialViewAngle#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#setCubeInDefaultState#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#setStringCubeModelInternal#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#setBackFacesDistanceInternal#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#animateCube#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#stopAnimationAndDrawing#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#sleep#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#notifyHandlerCubeModelUpdated#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#notifyListenerCubeUpdatedOnMainThread#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#notifyHandlerAnimationFinished#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#notifyListenerAnimationFinishedOnMainThread#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#splitCube#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#twistLayers#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#twistLayer#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#fixBlock#0;class#AnimCube#0" expanded="false" />
+            <element signature="e#67819#67849#0" expanded="false" />
+            <element signature="e#72490#72520#0" expanded="false" />
+            <element signature="method#getCorners#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#handlePointerDownEvent#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#handlePointerUpEvent#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#handlePointerDragEvent#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#forceSetEye#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;class#OnCubeModelUpdatedListener#0;class#AnimCube#0" expanded="false" />
+            <element signature="class#OnCubeModelUpdatedListener#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#onCubeModelUpdate#0;class#OnCubeModelUpdatedListener#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;class#OnCubeAnimationFinishedListener#0;class#AnimCube#0" expanded="false" />
+            <element signature="class#OnCubeAnimationFinishedListener#0;class#AnimCube#0" expanded="false" />
+            <element signature="docComment;method#onAnimationFinished#0;class#OnCubeAnimationFinishedListener#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#checkFinished#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#decode#0;class#AnimCube#0" expanded="false" />
+            <element signature="method#decode#1;class#AnimCube#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-manifest">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="321" column="13" lean-forward="true" selection-start-line="321" selection-start-column="13" selection-end-line="321" selection-end-column="13" />
+          <folding>
+            <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#initView#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#4575#4633#0" expanded="false" />
+            <element signature="class#5475:6920" expanded="false" />
+            <element signature="method#onConnect#0;class#5475:6920" expanded="false" />
+            <element signature="method#onDisConnect#0;class#5475:6920" expanded="false" />
+            <element signature="method#onDetail#0;class#5475:6920" expanded="false" />
+            <element signature="method#setScanRule#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#startScan#0;class#MainActivity#0" expanded="false" />
+            <element signature="class#9964:10992" expanded="false" />
+            <element signature="method#onScanStarted#0;class#9964:10992" expanded="false" />
+            <element signature="method#onScanning#0;class#9964:10992" expanded="false" />
+            <element signature="method#onScanFinished#0;class#9964:10992" expanded="false" />
+            <element signature="method#onConnectFail#0;class#11112:12819" expanded="false" />
+            <element signature="method#onDisConnected#0;class#11112:12819" expanded="false" />
+            <element signature="method#readRssi#0;class#MainActivity#0" expanded="false" />
+            <element signature="class#12935:13273" expanded="false" />
+            <element signature="method#onRssiFailure#0;class#12935:13273" expanded="false" />
+            <element signature="method#setMtu#0;class#MainActivity#0" expanded="false" />
+            <element signature="class#13399:13743" expanded="false" />
+            <element signature="method#onSetMTUFailure#0;class#13399:13743" expanded="false" />
+            <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#checkPermissions#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onPermissionGranted#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#checkGPSIsOpen#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="37" column="86" lean-forward="true" selection-start-line="37" selection-start-column="86" selection-end-line="37" selection-end-column="86" />
+          <folding>
+            <element signature="method#onCreate#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#RubikActivity#0" expanded="false" />
+            <element signature="e#2994#3052#0" expanded="false" />
+            <element signature="method#onSaveInstanceState#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#onRestoreInstanceState#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#onCubeModelUpdate#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#printCubeModel#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#disConnected#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#initData#0;class#RubikActivity#0" expanded="false" />
+            <element signature="e#7041#7178#0" expanded="true" />
+            <element signature="e#7177#7178#0" expanded="true" />
+            <element signature="method#initBLE#0;class#RubikActivity#0" expanded="false" />
+            <element signature="class#7753:9575" expanded="false" />
+            <element signature="method#onNotifySuccess#0;class#7753:9575" expanded="false" />
+            <element signature="method#onNotifyFailure#0;class#7753:9575" expanded="false" />
+            <element signature="method#onCharacteristicChanged#0;class#7753:9575" expanded="false" />
+            <element signature="method#setMessage#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#runTurn#0;class#RubikActivity#0" expanded="false" />
+            <element signature="e#10193#10237#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

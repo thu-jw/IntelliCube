@@ -8,6 +8,7 @@
         <attr name="moves" format="string|reference"/>
         <attr name="editable" format="boolean|reference"/>
         <attr name="backFacesDistance" format="integer|reference"/>
+        <attr name="scrambleSteps" format="integer|reference"/>
         <attr name="touchSensitivity" format="float|reference"/>
         <attr name="initialRotation" format="string|reference"/>
         <attr name="perspective" format="integer|reference"/>

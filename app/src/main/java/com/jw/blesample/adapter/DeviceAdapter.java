@@ -33,6 +33,11 @@ public class DeviceAdapter extends BaseAdapter {
         bleDeviceList.add(bleDevice);
     }
 
+    public void clearExcept(BleDevice bleDevice){
+        bleDeviceList.clear();
+        bleDeviceList.add(bleDevice);
+    }
+
     public void removeDevice(BleDevice bleDevice) {
         for (int i = 0; i < bleDeviceList.size(); i++) {
             BleDevice device = bleDeviceList.get(i);
@@ -108,11 +113,13 @@ public class DeviceAdapter extends BaseAdapter {
             String name = bleDevice.getName();
             String mac = bleDevice.getMac();
             int rssi = bleDevice.getRssi();
+            //tricky
             if (mac.equals("F0:A6:55:92:E4:3D"))//F0:A6:55:92:E4:3D
             {
                 holder.txt_name.setText("IntelliCube");
             }
             else holder.txt_name.setText(name);
+            //end tricky
             holder.txt_mac.setText(mac);
             holder.txt_rssi.setText(String.valueOf(rssi));
             if (isConnected) {

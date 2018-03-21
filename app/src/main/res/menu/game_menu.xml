@@ -2,7 +2,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+        android:id="@+id/scramble"
+        android:title="@string/scramble"
+        app:showAsAction="never"/>
+    <item
         android:id="@+id/reset"
         android:title="@string/cube_reset"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/save_state"
+        android:title="@string/cube_save"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/restore_state"
+        android:title="@string/cube_restore"
         app:showAsAction="never"/>
 </menu>

@@ -7,10 +7,13 @@ import android.bluetooth.BluetoothGattService;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,10 +24,9 @@ import com.jw.fastble.BleManager;
 import com.jw.fastble.callback.BleNotifyCallback;
 import com.jw.fastble.data.BleDevice;
 import com.jw.fastble.exception.BleException;
-import com.jw.fastble.utils.HexUtil;
 
-import org.w3c.dom.Text;
-
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Random;
 import java.util.UUID;
 
@@ -45,6 +47,7 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
     private AnimCube animCube;
     private Bundle state;
 
+
     //bluetooth
     private BleDevice bleDevice;
     private BluetoothGattService bluetoothGattService;
@@ -54,8 +57,9 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
     private Toolbar toolbar;
     private TextView message;
 
-    private int available_codes[] = {1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14};
-    private Random random = new Random(1);
+    private final int available_codes[] = {1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14};
+    private Random random = new Random(System.currentTimeMillis());
+    private Queue<String> move_seqs;
     private int MODE;
 
     @Override
@@ -85,11 +89,11 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (MODE == 1 && item.getItemId() == R.id.reset)
-        {
-            animCube.resetToInitialState();
-            return super.onOptionsItemSelected(item);
-        }
+//        if (MODE == 1 && item.getItemId() == R.id.reset)
+//        {
+//            animCube.resetToInitialState();
+//            return super.onOptionsItemSelected(item);
+//        }
         switch (item.getItemId()) {
             case R.id.start:
                 anim_available = true;
@@ -99,7 +103,11 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
                 animCube.stopAnimation();
                 break;
             case R.id.reset:
+                message.setText("");
                 animCube.resetToInitialState();
+                break;
+            case R.id.scramble:
+                setMessage(animCube.scramble());
                 break;
             case R.id.save_state:
                 state = animCube.saveState();
@@ -107,7 +115,7 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
                 break;
             case R.id.restore_state:
                 if (!isRestorable){
-                    Toast.makeText(RubikActivity.this, "No Available State", Toast.LENGTH_LONG).show();
+                    Toast.makeText(RubikActivity.this,this.getResources().getString(R.string.no_valid_state), Toast.LENGTH_LONG).show();
                 }
                 else {
                     animCube.restoreState(state);
@@ -183,26 +191,28 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
         MODE = getIntent().getIntExtra(RUN_MODE, 1);
         if (MODE == 1){
             AnimCube.isRotatable = true;
+            anim_available = true;
             return;
         }
+        move_seqs = new LinkedList<>();
         bleDevice = getIntent().getParcelableExtra(KEY_DATA);
         if (bleDevice == null)
             finish();
     }
 
     private void initView() {
-        if (MODE == 1)
-        {
-            setContentView(R.layout.activity_game);
-        }
-        else if (MODE == 2)
-        {
-            setContentView(R.layout.activity_rubik);
-            message = (TextView) findViewById(R.id.message);
-        }
+        setContentView(R.layout.activity_rubik);
+        message = (TextView) findViewById(R.id.message);
+        message.setMovementMethod(ScrollingMovementMethod.getInstance());
         toolbar = findViewById(R.id.cubeToolBar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+                finish();
+            }
+        });
     }
 
     private void initBLE(){
@@ -224,7 +234,7 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                setMessage("notify success");
+                                setMessage("\n");
                             }
                         });
                     }
@@ -250,29 +260,42 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
                                 code = code % 16;
                                 code = (code < 0) ? code + 16 : code;
                                 code = (code < 12) ? available_codes[code] : 0;
-                                if (code != 0)
-                                runTurn(code);
+                                String seq;
+                                seq = animCube.decode(code);
+                                setMessage(seq);
+                                move_seqs.offer(seq);
+                                runTurn();
 
 //                                setMessage(HexUtil.formatHexString(characteristic.getValue()));
-                                setMessage(String.valueOf(code));
                             }
                         });
                     }
                 });
     }
 
+
     private void setMessage(String m){
-        message.setText(m);
-    }
-
-
-    private void runTurn(int code){
         if (!anim_available)
             return;
-        animCube.runCodedTurn(code);
-        while(animCube.isAnimating());
+        message.append(m);
+        int offset=message.getLineCount()*message.getLineHeight();
+        if(offset>message.getHeight()){
+            message.scrollTo(0,offset-message.getHeight());
+        }
     }
-    private int byteArrayToInt(byte[] b) {
-        return b[0] & 0xFF;
+
+    private void runTurn(){
+        if (!anim_available) {
+            move_seqs.clear();
+            return;
+        }
+        while (!move_seqs.isEmpty()) {
+            String move = move_seqs.poll();
+            animCube.runMoveSequence(move);
+            while (animCube.isAnimating()) ;
+        }
     }
+//    private int byteArrayToInt(byte[] b) {
+//        return b[0] & 0xFF;
+//    }
 }
