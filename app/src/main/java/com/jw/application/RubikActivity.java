@@ -18,6 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.jw.AnimCubeLib.AnimCube;
+
 import com.jw.blesample.comm.Observer;
 import com.jw.blesample.comm.ObserverManager;
 import com.jw.fastble.BleManager;

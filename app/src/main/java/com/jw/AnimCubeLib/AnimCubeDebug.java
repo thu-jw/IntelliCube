@@ -520,7 +520,7 @@ public class AnimCubeDebug extends SurfaceView implements View.OnTouchListener {
      * </ul>
      * </p>
      * <p>
-     * There is yet another character to be used in the parameter value - the dot '.' character. When a dot is found in the sequence during playing the animation, it is delayed for a half of the time the quarter turn is performed.
+     * There is yet another character to be used in the parameter value - the dot '.' character. When a dot is found in the sequence during isPlaying the animation, it is delayed for a half of the time the quarter turn is performed.
      * </p>
      * <p><b>Important:</b> In Josef Jelink's original AnimCube applet there could be several move sequences specified in the same string. The sequences were separated by the semicolon character ';'. This feature however is disabled in this version.<br>
      * If the move sequence string passed to this method has more than one move sequences defined, only the first will be taken into consideration, and the next will be ignored.</p>

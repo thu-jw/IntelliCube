@@ -194,9 +194,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             {
                 switch(checkedId){
                     case R.id.game:
-                        Intent intent = new Intent(MainActivity.this, RubikActivity.class);
+                        Intent intent = new Intent(MainActivity.this, GameActivity.class);
                         PROGRAME_MODE = 1;
-                        intent.putExtra(RubikActivity.RUN_MODE, PROGRAME_MODE);
                         startActivity(intent);
                         break;
                     case R.id.sensor:
@@ -314,7 +313,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onConnectSuccess(BleDevice bleDevice, BluetoothGatt gatt, int status) {
                 progressDialog.dismiss();
                 mDeviceAdapter.clearExcept(bleDevice);
-//                mDeviceAdapter.addDevice(bleDevice);
                 mDeviceAdapter.notifyDataSetChanged();
 
                 readRssi(bleDevice);

@@ -16,6 +16,7 @@
         <attr name="verticalAlign" format="string|reference"/>
         <attr name="singleRotationSpeed" format="integer|reference"/>
         <attr name="doubleRotationSpeed" format="integer|reference"/>
+        <attr name="functionMode" format="integer|reference"/>
         <attr name="debuggable" format="boolean|reference"/>
     </declare-styleable>
 </resources>

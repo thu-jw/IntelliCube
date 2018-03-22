@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
+import android.support.v7.app.AppCompatActivity;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
@@ -19,6 +20,8 @@ import android.view.SurfaceView;
 import android.view.View;
 
 import android.util.Log;
+
+import com.jw.application.GameActivity;
 import com.jw.application.R;
 
 import java.lang.reflect.Array;
@@ -222,6 +225,8 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
     private int scrambleSteps;
     private Random random = new Random(System.currentTimeMillis());
     private final int available_codes[] = {1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14};
+    private int functionMode;
+    private AppCompatActivity parent;
 
     private Handler mainThreadHandler = new Handler(Looper.getMainLooper()) {
         @Override
@@ -270,6 +275,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
         }
     };
 
+
     public AnimCube(Context context) {
         super(context);
         init(context, null);
@@ -303,6 +309,9 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
         }
     }
 
+    public void setParent(AppCompatActivity parent){
+        this.parent = parent;
+    }
     /**
      * <p>
      * Sets the cube in the specified state. This method expects a {@link String} with exactly 54 characters (i.e. 9 facelets on each cube face * 6 cube faces). If the string
@@ -527,7 +536,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
      * </ul>
      * </p>
      * <p>
-     * There is yet another character to be used in the parameter value - the dot '.' character. When a dot is found in the sequence during playing the animation, it is delayed for a half of the time the quarter turn is performed.
+     * There is yet another character to be used in the parameter value - the dot '.' character. When a dot is found in the sequence during isPlaying the animation, it is delayed for a half of the time the quarter turn is performed.
      * </p>
      * <p><b>Important:</b> In Josef Jelinek's original AnimCube applet there could be several move sequences specified in the same string. The sequences were separated by the semicolon character ';'. This feature however is disabled in this version.<br>
      * If the move sequence string passed to this method has more than one move sequences defined, only the first will be taken into consideration, and the next will be ignored.</p>
@@ -858,6 +867,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
         initDoubleRotationSpeed(attributes);
         initDebuggable(attributes);
         initScrambleSteps(attributes);
+        initFunctionMode(attributes);
         //done, recycle typed array
         attributes.recycle();
 
@@ -876,6 +886,10 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
 
     private void initDebuggable(TypedArray attributes) {
         this.isDebuggable = attributes.getBoolean(R.styleable.AnimCube_debuggable, false);
+    }
+
+    private void initFunctionMode(TypedArray attributes){
+        this.functionMode =  attributes.getInt(R.styleable.AnimCube_functionMode, 1);
     }
 
     private void initBackgroundColor(TypedArray attributes) {
@@ -1852,8 +1866,14 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
                 originalAngle = 0;
                 natural = true; // the cube in the natural state
                 twistLayers(cube, twistedLayer, num, twistedMode); // rotate the facelets
+                Log.e("num", String.valueOf(num));
                 //handlePointerUpEvent is always called from the main thread, so we can notify the listener directly, instead of going through the handler
                 notifyListenerCubeUpdatedOnMainThread();
+                if (checkFinished()){
+                    if (functionMode ==  1){
+                        ((GameActivity)parent).endTiming();
+                    }
+                }
             }
             repaint();
         }
@@ -1869,6 +1889,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
                 twisting = false;
             }
             else {
+                Log.e("tag", "touch");
                 lastDragX = x;
                 lastDragY = y;
                 for (int i = 0; i < dragAreas; i++) { // check if inside a drag area
@@ -1911,6 +1932,11 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
             lastX = x;
             lastY = y;
         } else if(isRotatable) {
+            Log.e("tag", "touch_lala");
+            //here start play
+            if (functionMode == 1 &&  !((GameActivity)this.parent).isPlaying){
+                ((GameActivity)this.parent).startTiming();
+            }
             if (natural) {
                 splitCube(twistedLayer);
             }
