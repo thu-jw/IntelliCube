@@ -1,5 +1,6 @@
 package com.jw.application;
 
+import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -187,7 +188,27 @@ public class GameActivity extends AppCompatActivity implements AnimCube.OnCubeMo
     }
 
     public void endTiming(){
-
+        ShowFinishedSolveDialog();
+        Log.e("tag", "endTiming");
         isPlaying = false;
+    }
+
+    public void ShowFinishedSolveDialog() {
+        ButtonDialogFragment buttonDialogFragment = new ButtonDialogFragment();
+        buttonDialogFragment.show("复原成功！", "用时: " + timer_view.getText(), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+//                Toast.makeText(GameActivity.this, "点击了确定 " + which, Toast.LENGTH_SHORT).show();
+                timer_view.setText("");
+                message.setText("");
+            }
+        }, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+//                Toast.makeText(GameActivity.this, "点击了取消 " + which, Toast.LENGTH_SHORT).show();
+                timer_view.setText("");
+                message.setText("");
+            }
+        }, getFragmentManager());
     }
 }

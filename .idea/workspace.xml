@@ -12,9 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9b0b895-e190-46bf-b48f-209aa05b3bcf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/application/GameActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/application/Timer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/textview.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/application/ButtonDialogFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_game.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -24,13 +23,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCubeDebug.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCubeDebug.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/application/GameActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/application/GameActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/application/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/application/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jw/application/Timer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jw/application/Timer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_rubik.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_rubik.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_game.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_game.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,15 +57,24 @@
       <file leaf-file-name="GameActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/GameActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="-25">
+              <caret line="182" column="27" lean-forward="false" selection-start-line="182" selection-start-column="16" selection-end-line="182" selection-end-column="27" />
               <folding>
+                <element signature="method#onCreate#0;class#GameActivity#0" expanded="false" />
                 <element signature="method#onCreateOptionsMenu#0;class#GameActivity#0" expanded="false" />
+                <element signature="method#onOptionsItemSelected#0;class#GameActivity#0" expanded="false" />
                 <element signature="method#onSaveInstanceState#0;class#GameActivity#0" expanded="false" />
                 <element signature="method#onRestoreInstanceState#0;class#GameActivity#0" expanded="false" />
                 <element signature="method#onDestroy#0;class#GameActivity#0" expanded="false" />
                 <element signature="method#onCubeModelUpdate#0;class#GameActivity#0" expanded="false" />
                 <element signature="method#printCubeModel#0;class#GameActivity#0" expanded="false" />
+                <element signature="method#initData#0;class#GameActivity#0" expanded="false" />
+                <element signature="method#initView#0;class#GameActivity#0" expanded="false" />
+                <element signature="method#setMessage#0;class#GameActivity#0" expanded="false" />
+                <element signature="method#setTimer#0;class#GameActivity#0" expanded="false" />
+                <element signature="method#startTiming#0;class#GameActivity#0" expanded="false" />
+                <element signature="method#endTiming#0;class#GameActivity#0" expanded="false" />
+                <element signature="method#ShowFinishedSolveDialog#0;class#GameActivity#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -74,75 +83,130 @@
       <file leaf-file-name="Timer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/Timer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="76" column="31" lean-forward="false" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+            <state relative-caret-position="-12">
+              <caret line="86" column="38" lean-forward="false" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <file leaf-file-name="RubikActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="749">
-              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="-25">
+              <caret line="118" column="63" lean-forward="false" selection-start-line="118" selection-start-column="63" selection-end-line="118" selection-end-column="63" />
+              <folding>
+                <element signature="method#onCreate#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#onCreateOptionsMenu#0;class#RubikActivity#0" expanded="false" />
+                <element signature="e#3213#3271#0" expanded="false" />
+                <element signature="method#onSaveInstanceState#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#onRestoreInstanceState#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#onDestroy#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#onCubeModelUpdate#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#printCubeModel#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#disConnected#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#initData#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#initView#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#initBLE#0;class#RubikActivity#0" expanded="false" />
+                <element signature="class#8045:10249" expanded="false" />
+                <element signature="method#onNotifySuccess#0;class#8045:10249" expanded="false" />
+                <element signature="method#onNotifyFailure#0;class#8045:10249" expanded="false" />
+                <element signature="method#onCharacteristicChanged#0;class#8045:10249" expanded="false" />
+                <element signature="e#9063#9156#0" expanded="false" />
+                <element signature="method#setMessage#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#setTimer#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#startTiming#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#endTiming#0;class#RubikActivity#0" expanded="false" />
+                <element signature="method#ShowFinishedSolveDialog#0;class#RubikActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-23">
+              <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_rubik.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+      <file leaf-file-name="fragment_characteric_list.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_characteric_list.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
+          <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_game.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game.xml">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceListFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/operation/ServiceListFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="71" column="37" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="37" />
+            <state relative-caret-position="-12">
+              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="9" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnimCube.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12">
+              <caret line="21" column="60" lean-forward="false" selection-start-line="21" selection-start-column="60" selection-end-line="22" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FastBleLib/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#45#414#0" expanded="false" />
+                <element signature="e#122#234#0" expanded="false" />
+                <element signature="e#250#412#0" expanded="false" />
+                <element signature="e#268#406#0" expanded="false" />
+                <element signature="e#429#486#0" expanded="false" />
+                <element signature="e#429#486#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnimCube.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="1875" column="17" lean-forward="false" selection-start-line="1875" selection-start-column="17" selection-end-line="1875" selection-end-column="17" />
+            <state relative-caret-position="-25">
+              <caret line="1942" column="13" lean-forward="false" selection-start-line="1942" selection-start-column="13" selection-end-line="1942" selection-end-column="13" />
               <folding>
                 <element signature="docComment;class#AnimCube#0" expanded="false" />
-                <element signature="class#11404:12012" expanded="false" />
-                <element signature="method#handleMessage#0;class#11404:12012" expanded="false" />
-                <element signature="class#12214:12912" expanded="false" />
-                <element signature="method#surfaceCreated#0;class#12214:12912" expanded="false" />
-                <element signature="method#surfaceChanged#0;class#12214:12912" expanded="false" />
+                <element signature="class#11445:12053" expanded="false" />
+                <element signature="method#handleMessage#0;class#11445:12053" expanded="false" />
+                <element signature="class#12255:12953" expanded="false" />
+                <element signature="method#surfaceCreated#0;class#12255:12953" expanded="false" />
+                <element signature="method#surfaceChanged#0;class#12255:12953" expanded="false" />
                 <element signature="docComment;method#getCubeModel#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#getCubeModel#0;class#AnimCube#0" expanded="false" />
-                <element signature="e#14017#14018#0" expanded="true" />
-                <element signature="e#14053#14054#0" expanded="true" />
                 <element signature="docComment;method#setCubeModel#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#setCubeModel#0;class#AnimCube#0" expanded="false" />
                 <element signature="docComment;method#setCubeModel#1;class#AnimCube#0" expanded="false" />
@@ -185,7 +249,7 @@
                 <element signature="method#onTouch#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#onDraw#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#init#0;class#AnimCube#0" expanded="false" />
-                <element signature="e#37957#38029#0" expanded="false" />
+                <element signature="e#37998#38070#0" expanded="false" />
                 <element signature="method#initBackgroundColor#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#initCubeColors#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#initFaceletsContourColor#0;class#AnimCube#0" expanded="false" />
@@ -204,11 +268,11 @@
                 <element signature="docComment;method#startAnimation#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#startAnimation#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#performDraw#0;class#AnimCube#0" expanded="false" />
-                <element signature="e#46890#46909#0" expanded="false" />
+                <element signature="e#46931#46950#0" expanded="false" />
                 <element signature="method#repaint#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#getMove#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#getMovePart#0;class#AnimCube#0" expanded="false" />
-                <element signature="e#53019#53031#0" expanded="false" />
+                <element signature="e#53060#53072#0" expanded="false" />
                 <element signature="method#setupInitialViewAngle#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#setCubeInDefaultState#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#setStringCubeModelInternal#0;class#AnimCube#0" expanded="false" />
@@ -224,11 +288,10 @@
                 <element signature="method#splitCube#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#twistLayers#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#twistLayer#0;class#AnimCube#0" expanded="false" />
-                <element signature="e#68258#68288#0" expanded="false" />
-                <element signature="e#72929#72959#0" expanded="false" />
+                <element signature="e#68299#68329#0" expanded="false" />
+                <element signature="e#72970#73000#0" expanded="false" />
                 <element signature="method#getCorners#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#handlePointerDownEvent#0;class#AnimCube#0" expanded="false" />
-                <element signature="method#handlePointerDragEvent#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#forceSetEye#0;class#AnimCube#0" expanded="false" />
                 <element signature="docComment;class#OnCubeModelUpdatedListener#0;class#AnimCube#0" expanded="false" />
                 <element signature="class#OnCubeModelUpdatedListener#0;class#AnimCube#0" expanded="false" />
@@ -241,65 +304,6 @@
                 <element signature="method#decode#1;class#AnimCube#0" expanded="false" />
                 <element signature="method#scrambleGenerator#0;class#AnimCube#0" expanded="false" />
                 <element signature="method#scramble#0;class#AnimCube#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Context.class" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/SDK/android-sdk/android-sdk_r24.4.1-windows/android-sdk-windows/platforms/android-26/android.jar!/android/content/Context.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-729">
-              <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fragment.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/26.0.0-beta1/35b2ce883ecfb9ef1ba093502ec6437cfdda23fb/support-fragment-26.0.0-beta1-sources.jar!/android/support/v4/app/Fragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="673" column="39" lean-forward="false" selection-start-line="673" selection-start-column="39" selection-end-line="673" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
-              <folding>
-                <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#4575#4633#0" expanded="false" />
-                <element signature="class#5475:6920" expanded="false" />
-                <element signature="method#onConnect#0;class#5475:6920" expanded="false" />
-                <element signature="method#onDisConnect#0;class#5475:6920" expanded="false" />
-                <element signature="method#onDetail#0;class#5475:6920" expanded="false" />
-                <element signature="method#setScanRule#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#startScan#0;class#MainActivity#0" expanded="false" />
-                <element signature="class#9883:10911" expanded="false" />
-                <element signature="method#onScanStarted#0;class#9883:10911" expanded="false" />
-                <element signature="method#onScanning#0;class#9883:10911" expanded="false" />
-                <element signature="method#onScanFinished#0;class#9883:10911" expanded="false" />
-                <element signature="method#connect#0;class#MainActivity#0" expanded="false" />
-                <element signature="class#11031:12683" expanded="false" />
-                <element signature="method#onConnectFail#0;class#11031:12683" expanded="false" />
-                <element signature="method#onConnectSuccess#0;class#11031:12683" expanded="false" />
-                <element signature="method#onDisConnected#0;class#11031:12683" expanded="false" />
-                <element signature="method#readRssi#0;class#MainActivity#0" expanded="false" />
-                <element signature="class#12799:13137" expanded="false" />
-                <element signature="method#onRssiFailure#0;class#12799:13137" expanded="false" />
-                <element signature="method#setMtu#0;class#MainActivity#0" expanded="false" />
-                <element signature="class#13263:13607" expanded="false" />
-                <element signature="method#onSetMTUFailure#0;class#13263:13607" expanded="false" />
-                <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#checkPermissions#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#onPermissionGranted#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#checkGPSIsOpen#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -318,16 +322,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bleD</find>
-      <find>on</find>
-      <find>onDes</find>
-      <find>addDevice(</find>
-      <find>onKe</find>
-      <find>random =</find>
-      <find>Log.v</find>
-      <find>state</find>
-      <find>this.</find>
-      <find>initMode</find>
       <find>mode</find>
       <find>singleRotation</find>
       <find>getAc</find>
@@ -348,6 +342,16 @@
       <find>initview</find>
       <find>startT</find>
       <find>checkFin</find>
+      <find>endTimin</find>
+      <find>onresu</find>
+      <find>initView</find>
+      <find>setMessage</find>
+      <find>\n</find>
+      <find>animcube =</find>
+      <find>endTiming</find>
+      <find>seq =</find>
+      <find>startTiming</find>
+      <find>startTimin</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -2942,19 +2946,22 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/adapter/DeviceAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/blesample/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_rubik.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/game_menu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/textview.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jw/application/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jw/application/FinishedSolve.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jw/application/ButtonDialogFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/application/GameActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jw/application/Timer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jw/application/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_game.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_game.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_rubik.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jw/application/Timer.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java" />
       </list>
     </option>
   </component>
@@ -2980,9 +2987,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntelliCube" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntelliCube" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FastBleLib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="IntelliCube" />
@@ -3014,28 +3043,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mipmap" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IntelliCube" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -3065,152 +3072,8 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity_rubik.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IntelliCube" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IntelliCube" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IntelliCube" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IntelliCube" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testrubikrenderer" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IntelliCube" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="operation" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IntelliCube" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comm" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IntelliCube" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IntelliCube" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blesample" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3241,14 +3104,26 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnimCubeLib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntelliCube" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3438,10 +3313,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="android.sdk.path" value="E:/SDK/android-sdk/android-sdk_r24.4.1-windows/android-sdk-windows" />
     <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DCTimer-master/DCTimer-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AlarmManagerClock" />
     <property name="device.picker.selection" value="KWG7N16607004278" />
     <property name="SearchEverywhereHistoryKey" value="Android Device&#9;ACTION&#9;Android.RunDdms&#10;Android Device &#9;ACTION&#9;Android.RunDdms&#10;Android Dev&#9;ACTION&#9;Android.RunDdms&#10;Android Device Mo&#9;ACTION&#9;Android.RunDdms&#10;Android Device M&#9;null&#9;null&#10;Android Device Mon&#9;ACTION&#9;Android.RunDdms&#10;UserDefine&#9;PSI&#9;JAVA://com.jw.AnimCubeLib.CubeConstants.AnimationMode#USER_DEFINE&#10;Android &#9;ACTION&#9;Android.RunDdms&#10;Mani&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/src/main/AndroidManifest.xml&#10;Rubi&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/src/main/java/com/jw/application/RubikActivity.java&#10;R.java&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/build/generated/source/r/debug/com/jw/application/R.java&#10;R.jav&#9;FILE&#9;file://D:/AndroidProjects/VisualCube/app/build/generated/source/r/debug/com/catalinjurjiu/application/R.java&#10;Android De&#9;ACTION&#9;Android.RunDdms&#10;Devi Monitor&#9;ACTION&#9;Android.RunDdms&#10;Android Montitor&#9;null&#9;null&#10;Moni&#9;PSI&#9;JAVA://sun.java2d.marlin.stats.Monitor" />
     <property name="android.project.structure.last.selected" value="app" />
@@ -3537,7 +3412,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521683385243" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521738120100" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3585,7 +3460,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521683385243" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521738120100" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3768,7 +3643,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521683385248" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521738120104" />
       </method>
     </configuration>
     <list size="1">
@@ -3820,19 +3695,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35287082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35526314" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41267943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3898,61 +3772,40 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java</url>
-          <line>1563</line>
+          <line>1564</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/jw/application/GameActivity.java</url>
-          <line>182</line>
+          <line>183</line>
           <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/jw/application/GameActivity.java</url>
-          <line>190</line>
+          <line>192</line>
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/jw/application/MainActivity.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java</url>
-          <line>44</line>
+          <line>47</line>
           <properties field="anim_available" class="com.jw.application.RubikActivity" />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="58" />
+      <option name="time" value="60" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FastBleLib/src/main/java/com/jw/fastble/callback/BleGattCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/adapter_characteristic.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_characteric_operation_button.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_characteric_operation_et.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4018,28 +3871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
           <caret line="241" column="40" lean-forward="false" selection-start-line="241" selection-start-column="40" selection-end-line="241" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FastBleLib/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -4149,17 +3980,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_characteric_list.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_characteric_operation.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4206,31 +4026,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_rubik.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/operation/OperationActivity.java">
@@ -4274,28 +4075,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="183" column="13" lean-forward="true" selection-start-line="183" selection-start-column="13" selection-end-line="183" selection-end-column="13" />
-          <folding>
-            <element signature="method#onSaveInstanceState#0;class#RubikActivity#0" expanded="false" />
-            <element signature="e#6007#6008#0" expanded="true" />
-            <element signature="e#6060#6061#0" expanded="true" />
-            <element signature="method#disConnected#0;class#RubikActivity#0" expanded="false" />
-            <element signature="method#initData#0;class#RubikActivity#0" expanded="false" />
-            <element signature="method#initView#0;class#RubikActivity#0" expanded="false" />
-            <element signature="method#initBLE#0;class#RubikActivity#0" expanded="false" />
-            <element signature="class#7754:9576" expanded="false" />
-            <element signature="method#onNotifySuccess#0;class#7754:9576" expanded="false" />
-            <element signature="method#onNotifyFailure#0;class#7754:9576" expanded="false" />
-            <element signature="method#onCharacteristicChanged#0;class#7754:9576" expanded="false" />
-            <element signature="method#runTurn#0;class#RubikActivity#0" expanded="false" />
-            <element signature="e#10194#10238#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -4314,7 +4093,7 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/26.0.0-beta1/35b2ce883ecfb9ef1ba093502ec6437cfdda23fb/support-fragment-26.0.0-beta1-sources.jar!/android/support/v4/app/Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
+        <state relative-caret-position="15822">
           <caret line="673" column="39" lean-forward="false" selection-start-line="673" selection-start-column="39" selection-end-line="673" selection-end-column="39" />
           <folding />
         </state>
@@ -4322,48 +4101,48 @@
     </entry>
     <entry file="jar://E:/SDK/android-sdk/android-sdk_r24.4.1-windows/android-sdk-windows/platforms/android-26/android.jar!/android/content/Context.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-729">
+        <state relative-caret-position="162">
           <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/operation/ServiceListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="1323">
+          <caret line="71" column="37" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+        <state relative-caret-position="197">
+          <caret line="194" column="32" lean-forward="false" selection-start-line="194" selection-start-column="32" selection-end-line="194" selection-end-column="32" />
           <folding>
             <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#4575#4633#0" expanded="false" />
-            <element signature="class#5475:6920" expanded="false" />
-            <element signature="method#onConnect#0;class#5475:6920" expanded="false" />
-            <element signature="method#onDisConnect#0;class#5475:6920" expanded="false" />
-            <element signature="method#onDetail#0;class#5475:6920" expanded="false" />
+            <element signature="e#4716#4774#0" expanded="false" />
+            <element signature="class#5616:7061" expanded="false" />
+            <element signature="method#onConnect#0;class#5616:7061" expanded="false" />
+            <element signature="method#onDisConnect#0;class#5616:7061" expanded="false" />
+            <element signature="method#onDetail#0;class#5616:7061" expanded="false" />
             <element signature="method#setScanRule#0;class#MainActivity#0" expanded="false" />
             <element signature="method#startScan#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#9883:10911" expanded="false" />
-            <element signature="method#onScanStarted#0;class#9883:10911" expanded="false" />
-            <element signature="method#onScanning#0;class#9883:10911" expanded="false" />
-            <element signature="method#onScanFinished#0;class#9883:10911" expanded="false" />
+            <element signature="class#10135:11163" expanded="false" />
+            <element signature="method#onScanStarted#0;class#10135:11163" expanded="false" />
+            <element signature="method#onScanning#0;class#10135:11163" expanded="false" />
+            <element signature="method#onScanFinished#0;class#10135:11163" expanded="false" />
             <element signature="method#connect#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#11031:12683" expanded="false" />
-            <element signature="method#onConnectFail#0;class#11031:12683" expanded="false" />
-            <element signature="method#onConnectSuccess#0;class#11031:12683" expanded="false" />
-            <element signature="method#onDisConnected#0;class#11031:12683" expanded="false" />
+            <element signature="class#11283:12935" expanded="false" />
+            <element signature="method#onConnectFail#0;class#11283:12935" expanded="false" />
+            <element signature="method#onConnectSuccess#0;class#11283:12935" expanded="false" />
+            <element signature="method#onDisConnected#0;class#11283:12935" expanded="false" />
             <element signature="method#readRssi#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#12799:13137" expanded="false" />
-            <element signature="method#onRssiFailure#0;class#12799:13137" expanded="false" />
+            <element signature="class#13051:13389" expanded="false" />
+            <element signature="method#onRssiFailure#0;class#13051:13389" expanded="false" />
             <element signature="method#setMtu#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#13263:13607" expanded="false" />
-            <element signature="method#onSetMTUFailure#0;class#13263:13607" expanded="false" />
+            <element signature="class#13515:13859" expanded="false" />
+            <element signature="method#onSetMTUFailure#0;class#13515:13859" expanded="false" />
             <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
             <element signature="method#checkPermissions#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionGranted#0;class#MainActivity#0" expanded="false" />
@@ -4373,74 +4152,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/ButtonDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_game.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="35" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_rubik.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="35" />
+          <folding>
+            <element signature="e#1919#1940#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="49" column="41" lean-forward="false" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+          <folding>
+            <element signature="e#2002#2023#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/GameActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        <state relative-caret-position="-25">
+          <caret line="182" column="27" lean-forward="false" selection-start-line="182" selection-start-column="16" selection-end-line="182" selection-end-column="27" />
           <folding>
+            <element signature="method#onCreate#0;class#GameActivity#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#GameActivity#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#GameActivity#0" expanded="false" />
             <element signature="method#onSaveInstanceState#0;class#GameActivity#0" expanded="false" />
             <element signature="method#onRestoreInstanceState#0;class#GameActivity#0" expanded="false" />
             <element signature="method#onDestroy#0;class#GameActivity#0" expanded="false" />
             <element signature="method#onCubeModelUpdate#0;class#GameActivity#0" expanded="false" />
             <element signature="method#printCubeModel#0;class#GameActivity#0" expanded="false" />
+            <element signature="method#initData#0;class#GameActivity#0" expanded="false" />
+            <element signature="method#initView#0;class#GameActivity#0" expanded="false" />
+            <element signature="method#setMessage#0;class#GameActivity#0" expanded="false" />
+            <element signature="method#setTimer#0;class#GameActivity#0" expanded="false" />
+            <element signature="method#startTiming#0;class#GameActivity#0" expanded="false" />
+            <element signature="method#endTiming#0;class#GameActivity#0" expanded="false" />
+            <element signature="method#ShowFinishedSolveDialog#0;class#GameActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="76" column="31" lean-forward="false" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_rubik.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/blesample/operation/ServiceListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="71" column="37" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="37" />
+        <state relative-caret-position="-12">
+          <caret line="86" column="38" lean-forward="false" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/AnimCubeLib/AnimCube.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="1875" column="17" lean-forward="false" selection-start-line="1875" selection-start-column="17" selection-end-line="1875" selection-end-column="17" />
+        <state relative-caret-position="-25">
+          <caret line="1942" column="13" lean-forward="false" selection-start-line="1942" selection-start-column="13" selection-end-line="1942" selection-end-column="13" />
           <folding>
             <element signature="docComment;class#AnimCube#0" expanded="false" />
-            <element signature="class#11404:12012" expanded="false" />
-            <element signature="method#handleMessage#0;class#11404:12012" expanded="false" />
-            <element signature="class#12214:12912" expanded="false" />
-            <element signature="method#surfaceCreated#0;class#12214:12912" expanded="false" />
-            <element signature="method#surfaceChanged#0;class#12214:12912" expanded="false" />
+            <element signature="class#11445:12053" expanded="false" />
+            <element signature="method#handleMessage#0;class#11445:12053" expanded="false" />
+            <element signature="class#12255:12953" expanded="false" />
+            <element signature="method#surfaceCreated#0;class#12255:12953" expanded="false" />
+            <element signature="method#surfaceChanged#0;class#12255:12953" expanded="false" />
             <element signature="docComment;method#getCubeModel#0;class#AnimCube#0" expanded="false" />
             <element signature="method#getCubeModel#0;class#AnimCube#0" expanded="false" />
-            <element signature="e#14017#14018#0" expanded="true" />
-            <element signature="e#14053#14054#0" expanded="true" />
             <element signature="docComment;method#setCubeModel#0;class#AnimCube#0" expanded="false" />
             <element signature="method#setCubeModel#0;class#AnimCube#0" expanded="false" />
             <element signature="docComment;method#setCubeModel#1;class#AnimCube#0" expanded="false" />
@@ -4483,7 +4305,7 @@
             <element signature="method#onTouch#0;class#AnimCube#0" expanded="false" />
             <element signature="method#onDraw#0;class#AnimCube#0" expanded="false" />
             <element signature="method#init#0;class#AnimCube#0" expanded="false" />
-            <element signature="e#37957#38029#0" expanded="false" />
+            <element signature="e#37998#38070#0" expanded="false" />
             <element signature="method#initBackgroundColor#0;class#AnimCube#0" expanded="false" />
             <element signature="method#initCubeColors#0;class#AnimCube#0" expanded="false" />
             <element signature="method#initFaceletsContourColor#0;class#AnimCube#0" expanded="false" />
@@ -4502,11 +4324,11 @@
             <element signature="docComment;method#startAnimation#0;class#AnimCube#0" expanded="false" />
             <element signature="method#startAnimation#0;class#AnimCube#0" expanded="false" />
             <element signature="method#performDraw#0;class#AnimCube#0" expanded="false" />
-            <element signature="e#46890#46909#0" expanded="false" />
+            <element signature="e#46931#46950#0" expanded="false" />
             <element signature="method#repaint#0;class#AnimCube#0" expanded="false" />
             <element signature="method#getMove#0;class#AnimCube#0" expanded="false" />
             <element signature="method#getMovePart#0;class#AnimCube#0" expanded="false" />
-            <element signature="e#53019#53031#0" expanded="false" />
+            <element signature="e#53060#53072#0" expanded="false" />
             <element signature="method#setupInitialViewAngle#0;class#AnimCube#0" expanded="false" />
             <element signature="method#setCubeInDefaultState#0;class#AnimCube#0" expanded="false" />
             <element signature="method#setStringCubeModelInternal#0;class#AnimCube#0" expanded="false" />
@@ -4522,11 +4344,10 @@
             <element signature="method#splitCube#0;class#AnimCube#0" expanded="false" />
             <element signature="method#twistLayers#0;class#AnimCube#0" expanded="false" />
             <element signature="method#twistLayer#0;class#AnimCube#0" expanded="false" />
-            <element signature="e#68258#68288#0" expanded="false" />
-            <element signature="e#72929#72959#0" expanded="false" />
+            <element signature="e#68299#68329#0" expanded="false" />
+            <element signature="e#72970#73000#0" expanded="false" />
             <element signature="method#getCorners#0;class#AnimCube#0" expanded="false" />
             <element signature="method#handlePointerDownEvent#0;class#AnimCube#0" expanded="false" />
-            <element signature="method#handlePointerDragEvent#0;class#AnimCube#0" expanded="false" />
             <element signature="method#forceSetEye#0;class#AnimCube#0" expanded="false" />
             <element signature="docComment;class#OnCubeModelUpdatedListener#0;class#AnimCube#0" expanded="false" />
             <element signature="class#OnCubeModelUpdatedListener#0;class#AnimCube#0" expanded="false" />
@@ -4539,6 +4360,95 @@
             <element signature="method#decode#1;class#AnimCube#0" expanded="false" />
             <element signature="method#scrambleGenerator#0;class#AnimCube#0" expanded="false" />
             <element signature="method#scramble#0;class#AnimCube#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jw/application/RubikActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="118" column="63" lean-forward="false" selection-start-line="118" selection-start-column="63" selection-end-line="118" selection-end-column="63" />
+          <folding>
+            <element signature="method#onCreate#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#RubikActivity#0" expanded="false" />
+            <element signature="e#3213#3271#0" expanded="false" />
+            <element signature="method#onSaveInstanceState#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#onRestoreInstanceState#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#onCubeModelUpdate#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#printCubeModel#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#disConnected#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#initData#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#initView#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#initBLE#0;class#RubikActivity#0" expanded="false" />
+            <element signature="class#8045:10249" expanded="false" />
+            <element signature="method#onNotifySuccess#0;class#8045:10249" expanded="false" />
+            <element signature="method#onNotifyFailure#0;class#8045:10249" expanded="false" />
+            <element signature="method#onCharacteristicChanged#0;class#8045:10249" expanded="false" />
+            <element signature="e#9063#9156#0" expanded="false" />
+            <element signature="method#setMessage#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#setTimer#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#startTiming#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#endTiming#0;class#RubikActivity#0" expanded="false" />
+            <element signature="method#ShowFinishedSolveDialog#0;class#RubikActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_characteric_list.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="9" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="21" column="60" lean-forward="false" selection-start-line="21" selection-start-column="60" selection-end-line="22" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FastBleLib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#414#0" expanded="false" />
+            <element signature="e#122#234#0" expanded="false" />
+            <element signature="e#250#412#0" expanded="false" />
+            <element signature="e#268#406#0" expanded="false" />
+            <element signature="e#429#486#0" expanded="false" />
+            <element signature="e#429#486#0" expanded="false" />
           </folding>
         </state>
       </provider>

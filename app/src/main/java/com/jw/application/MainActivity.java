@@ -92,6 +92,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onResume() {
         super.onResume();
         showConnectedDevice();
+        if (PROGRAME_MODE == 1){//如果当前处于魔方游戏，则自动切换到智能魔方
+            PROGRAME_MODE = -1;
+            mode_group.check(R.id.sensor);
+        }
     }
 
     @Override
@@ -194,6 +198,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             {
                 switch(checkedId){
                     case R.id.game:
+                        if (PROGRAME_MODE == -1){
+                            break;
+                        }
                         Intent intent = new Intent(MainActivity.this, GameActivity.class);
                         PROGRAME_MODE = 1;
                         startActivity(intent);

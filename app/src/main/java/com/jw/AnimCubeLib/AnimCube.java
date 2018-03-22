@@ -23,6 +23,7 @@ import android.util.Log;
 
 import com.jw.application.GameActivity;
 import com.jw.application.R;
+import com.jw.application.RubikActivity;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
@@ -1872,6 +1873,9 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
                 if (checkFinished()){
                     if (functionMode ==  1){
                         ((GameActivity)parent).endTiming();
+                    }
+                    else if (functionMode ==  2){
+                        ((RubikActivity)parent).endTiming();
                     }
                 }
             }

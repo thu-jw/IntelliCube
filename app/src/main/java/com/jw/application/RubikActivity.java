@@ -4,6 +4,7 @@ package com.jw.application;
 import android.bluetooth.BluetoothGatt;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
+import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -25,6 +26,8 @@ import com.jw.fastble.BleManager;
 import com.jw.fastble.callback.BleNotifyCallback;
 import com.jw.fastble.data.BleDevice;
 import com.jw.fastble.exception.BleException;
+
+import org.w3c.dom.Text;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -63,6 +66,10 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
     private Queue<String> move_seqs;
     private int MODE;
 
+    private TextView timer_view;
+    private Timer timer = new Timer(this, 1);
+    public boolean isPlaying = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,6 +81,7 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
         animCube = (AnimCube) findViewById(R.id.animcube);
         animCube.setOnCubeModelUpdatedListener(this);
         animCube.setOnAnimationFinishedListener(this);
+        animCube.setParent(this);
     }
 
     @Override
@@ -108,7 +116,7 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
                 animCube.resetToInitialState();
                 break;
             case R.id.scramble:
-                setMessage(animCube.scramble());
+                setMessage("Scramble: " + animCube.scramble());
                 break;
             case R.id.save_state:
                 state = animCube.saveState();
@@ -205,6 +213,7 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
         setContentView(R.layout.activity_rubik);
         message = (TextView) findViewById(R.id.message);
         message.setMovementMethod(ScrollingMovementMethod.getInstance());
+        timer_view = (TextView)findViewById(R.id.timer);
         toolbar = findViewById(R.id.cubeToolBar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -214,6 +223,7 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
                 finish();
             }
         });
+
     }
 
     private void initBLE(){
@@ -257,13 +267,19 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
                             public void run() {
 
 //                                int code = characteristic.getValue()[0] & random.nextInt();
+                                //receive BLE data from the cube
                                 int code = random.nextInt(16);
                                 code = code % 16;
                                 code = (code < 0) ? code + 16 : code;
                                 code = (code < 12) ? available_codes[code] : 0;
                                 String seq;
                                 seq = animCube.decode(code);
-                                setMessage(seq);
+                                if (!seq.equals("\n") || (message.getText().charAt(message.getText().length() - 1) == '\n')){
+                                    setMessage(seq);
+                                }
+                                if (!seq.equals("") && !isPlaying){
+                                    startTiming();
+                                }
                                 move_seqs.offer(seq);
                                 runTurn();
 
@@ -296,7 +312,41 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
             while (animCube.isAnimating()) ;
         }
     }
-//    private int byteArrayToInt(byte[] b) {
-//        return b[0] & 0xFF;
-//    }
+
+    public void setTimer(String t){
+        if (!isPlaying)
+            return;
+        timer_view.setText(t);
+    }
+
+    public void startTiming(){
+        isPlaying = true;
+        Log.e("tag", "start");
+        timer.count();
+        timer.timeStart = System.currentTimeMillis();
+        message.append("\n");
+    }
+
+    public void endTiming(){
+        ShowFinishedSolveDialog();
+        Log.e("tag", "endTiming");
+        isPlaying = false;
+    }
+
+    public void ShowFinishedSolveDialog() {
+        ButtonDialogFragment buttonDialogFragment = new ButtonDialogFragment();
+        buttonDialogFragment.show("复原成功！", "用时: " + timer_view.getText(), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                timer_view.setText("");
+                message.setText("");
+            }
+        }, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                timer_view.setText("");
+                message.setText("");
+            }
+        }, getFragmentManager());
+    }
 }

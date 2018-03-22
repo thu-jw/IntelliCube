@@ -86,6 +86,9 @@ public class Timer {
                 if (mode == 1){
                     ((GameActivity)parent).setTimer(contime((int) time));
                 }
+                else if (mode == 2){
+                    ((RubikActivity)parent).setTimer(contime((int) time));
+                }
             }
         }
     }
