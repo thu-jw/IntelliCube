@@ -18,9 +18,6 @@ import com.jw.AnimCubeLib.AnimCube;
 
 public class GameActivity extends AppCompatActivity implements AnimCube.OnCubeModelUpdatedListener, AnimCube.OnCubeAnimationFinishedListener{
 
-
-
-
     public static final String ANIM_CUBE_SAVE_STATE_BUNDLE_ID = "animCube";
     private static final String TAG = "AnimCubeActivity";
     private boolean anim_available = false;

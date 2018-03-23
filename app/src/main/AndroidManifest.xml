@@ -28,6 +28,9 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".GameActivity"></activity>
+
+        <activity android:name="com.jw.alarmmanager.clock.AlarmSettingActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -35,6 +35,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.jw.alarmmanager.clock.AlarmSettingActivity;
 import com.jw.blesample.BLEMainActivity;
 import com.jw.blesample.adapter.DeviceAdapter;
 import com.jw.blesample.comm.ObserverManager;
@@ -175,10 +176,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (BleManager.getInstance().isConnected(bleDevice)) {
                     if(CUBE_ACTIVITY){
 //                        mBleDevice = bleDevice;
-                        Intent intent = new Intent(MainActivity.this, RubikActivity.class);
-                        intent.putExtra(RubikActivity.KEY_DATA, bleDevice);
-                        intent.putExtra(RubikActivity.RUN_MODE, PROGRAME_MODE);
-                        startActivity(intent);
+                        if (PROGRAME_MODE == 2) {
+                            Intent intent = new Intent(MainActivity.this, RubikActivity.class);
+                            intent.putExtra(RubikActivity.KEY_DATA, bleDevice);
+                            intent.putExtra(RubikActivity.RUN_MODE, PROGRAME_MODE);
+                            startActivity(intent);
+                        }
+                        else if (PROGRAME_MODE == 3){
+                            Intent intent = new Intent(MainActivity.this, AlarmSettingActivity.class);
+                            startActivity(intent);
+                        }
                     }
                     else {
                         Intent intent = new Intent(MainActivity.this, OperationActivity.class);
@@ -209,6 +216,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         PROGRAME_MODE = 2;
                         break;
                     case R.id.alarm:
+                        PROGRAME_MODE = 3;
                         break;
                 }
             }

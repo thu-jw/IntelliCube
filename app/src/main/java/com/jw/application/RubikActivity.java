@@ -67,7 +67,7 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
     private int MODE;
 
     private TextView timer_view;
-    private Timer timer = new Timer(this, 1);
+    private Timer timer = new Timer(this, 2);
     public boolean isPlaying = false;
 
     @Override
