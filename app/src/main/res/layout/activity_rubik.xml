@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jw.application.RubikActivity">
+    tools:context="com.jw.activities.RubikActivity">
 
     <com.jw.AnimCubeLib.AnimCube
         android:id="@+id/animcube"
@@ -13,7 +13,7 @@
         cube:backgroundColor="@color/ubuntuTheme"
         cube:debuggable="true"
         cube:editable="true"
-        cube:functionMode="1"
+        cube:functionMode="2"
         cube:scrambleSteps="3"
         cube:layout_constraintHorizontal_bias="0.0"
         cube:layout_constraintLeft_toLeftOf="parent"
@@ -42,7 +42,8 @@
     <TextView
         android:id="@+id/message"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
@@ -52,13 +53,15 @@
         android:textSize="24sp"
         cube:layout_constraintBottom_toBottomOf="parent"
         cube:layout_constraintEnd_toEndOf="parent"
-        cube:layout_constraintStart_toStartOf="parent" />
+        cube:layout_constraintStart_toStartOf="parent"
+        cube:layout_constraintTop_toBottomOf="@+id/timer" />
 
     <TextView
         android:id="@+id/timer"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
+        android:layout_height="41dp"
         android:gravity="center"
+        android:text="test"
         android:textAlignment="center"
         android:textColor="@android:color/background_dark"
         android:textSize="30sp"

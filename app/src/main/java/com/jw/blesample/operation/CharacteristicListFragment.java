@@ -19,7 +19,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.jw.application.R;
+import com.jw.activities.R;
 
 
 import java.util.ArrayList;

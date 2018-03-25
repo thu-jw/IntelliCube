@@ -12,7 +12,7 @@ import android.view.WindowManager;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-import com.jw.application.R;
+import com.jw.activities.R;
 
 
 public class SelectRemindWayPopup implements OnClickListener {

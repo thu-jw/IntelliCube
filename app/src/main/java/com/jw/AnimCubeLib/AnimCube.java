@@ -21,11 +21,13 @@ import android.view.View;
 
 import android.util.Log;
 
-import com.jw.application.GameActivity;
-import com.jw.application.R;
-import com.jw.application.RubikActivity;
+import com.jw.activities.AlarmSettingActivity;
+import com.jw.activities.ClockAlarmActivity;
+import com.jw.activities.GameActivity;
+import com.jw.activities.R;
+import com.jw.activities.RubikActivity;
 
-import java.lang.reflect.Array;
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -111,7 +113,7 @@ import static com.jw.AnimCubeLib.CubeUtils.vSub;
  * </p>
  */
 @SuppressWarnings("unused")
-public class AnimCube extends SurfaceView implements View.OnTouchListener {
+public class AnimCube extends SurfaceView implements View.OnTouchListener, Serializable {
     public static final String TAG = "AnimCube";
     private static final int NOTIFY_LISTENER_ANIMATION_FINISHED = 4242;
     private static final int NOTIFY_LISTENER_MODEL_UPDATED = 2424;
@@ -222,6 +224,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
     private OnCubeAnimationFinishedListener cubeAnimationFinishedListener;
     private boolean isDebuggable;
     public static boolean isRotatable = false;
+    public boolean isVisible = true;
 
     private int scrambleSteps;
     private Random random = new Random(System.currentTimeMillis());
@@ -275,6 +278,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
             stopAnimationAndDrawing();
         }
     };
+    private AlarmSettingActivity.AlarmHandler alarmHandler = null;
 
 
     public AnimCube(Context context) {
@@ -869,6 +873,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
         initDebuggable(attributes);
         initScrambleSteps(attributes);
         initFunctionMode(attributes);
+        initRotatable(attributes);
         //done, recycle typed array
         attributes.recycle();
 
@@ -887,6 +892,10 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
 
     private void initDebuggable(TypedArray attributes) {
         this.isDebuggable = attributes.getBoolean(R.styleable.AnimCube_debuggable, false);
+    }
+
+    private void initRotatable(TypedArray attributes){
+        this.isRotatable = attributes.getBoolean(R.styleable.AnimCube_isRotatable, false);
     }
 
     private void initFunctionMode(TypedArray attributes){
@@ -1429,6 +1438,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
                     }
                 }
                 animating = false;
+                checkFinished();
                 animationMode = AnimationMode.STOPPED;
                 repaint();
                 notifyHandlerAnimationFinished();
@@ -1870,14 +1880,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
                 Log.e("num", String.valueOf(num));
                 //handlePointerUpEvent is always called from the main thread, so we can notify the listener directly, instead of going through the handler
                 notifyListenerCubeUpdatedOnMainThread();
-                if (checkFinished()){
-                    if (functionMode ==  1){
-                        ((GameActivity)parent).endTiming();
-                    }
-                    else if (functionMode ==  2){
-                        ((RubikActivity)parent).endTiming();
-                    }
-                }
+                checkFinished();
             }
             repaint();
         }
@@ -1936,7 +1939,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
             lastX = x;
             lastY = y;
         } else if(isRotatable) {
-            Log.e("tag", "touch_lala");
+            Log.e("tag", "touch");
             //here start play
             if (functionMode == 1 &&  !((GameActivity)this.parent).isPlaying){
                 ((GameActivity)this.parent).startTiming();
@@ -2012,11 +2015,23 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
     }
 
     public boolean checkFinished() {
+        Log.e(TAG, "checking finished:");
         int [][] test = cube;
         for (int i = 0; i < cube.length; i++){
             if (!Arrays.equals(cube[i], initialCube[i])){
+                Log.e(TAG, "not finished");
                 return false;
             }
+        }
+        if (functionMode ==  1){
+            ((GameActivity)parent).endTiming();
+        }
+        else if (functionMode ==  2){
+            ((RubikActivity)parent).endTiming();
+        }
+        Log.e(TAG, "finished!");
+        if (alarmHandler != null){
+            alarmHandler.sendEmptyMessage(5);
         }
         return true;
     }
@@ -2035,30 +2050,30 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
         int layerID = code & 0x7;
         String seq = "";
         switch (layerID){
+            case 0:
+                seq += "B";
+                break;
             case 1:
-                seq = seq.concat("R");
+                seq += "F";
                 break;
             case 2:
-                seq = seq.concat("U");
+                seq += "D";
                 break;
             case 3:
-                seq = seq.concat("F");
+                seq += "U";
                 break;
             case 4:
-                seq = seq.concat("L");
+                seq += "R";
                 break;
             case 5:
-                seq = seq.concat("D");
-                break;
-            case 6:
-                seq = seq.concat("B");
+                seq += "L";
                 break;
         }
         if (seq.equals("")){
             return "\n";
         }
         if(clockwise == 1){
-            seq = seq.concat("'");
+            seq += "'";
         }
         return seq;
     }
@@ -2085,5 +2100,13 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener {
         Log.v(TAG, seq);
         runMoveSequence(seq);
         return seq;
+    }
+
+    public void setScrambleSteps(int i){
+        scrambleSteps = i;
+    }
+
+    public void setHandler(AlarmSettingActivity.AlarmHandler h){
+        alarmHandler = h;
     }
 }

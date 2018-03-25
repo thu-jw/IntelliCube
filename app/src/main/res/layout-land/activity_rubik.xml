@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jw.application.RubikActivity">
+    tools:context="com.jw.activities.RubikActivity">
 
     <com.jw.AnimCubeLib.AnimCube
         android:id="@+id/animcube"
@@ -14,7 +14,7 @@
         cube:backgroundColor="@color/ubuntuTheme"
         cube:debuggable="true"
         cube:editable="true"
-        cube:functionMode="1"
+        cube:functionMode="2"
         cube:layout_constraintBottom_toTopOf="@+id/scramble"
         cube:layout_constraintLeft_toLeftOf="parent"
         cube:layout_constraintTop_toBottomOf="@+id/cubeToolBar"

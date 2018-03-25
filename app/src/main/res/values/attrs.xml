@@ -18,5 +18,6 @@
         <attr name="doubleRotationSpeed" format="integer|reference"/>
         <attr name="functionMode" format="integer|reference"/>
         <attr name="debuggable" format="boolean|reference"/>
+        <attr name="isRotatable" format="boolean|reference"/>
     </declare-styleable>
 </resources>

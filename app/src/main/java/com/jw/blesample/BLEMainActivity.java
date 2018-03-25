@@ -33,7 +33,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.jw.application.RubikActivity;
+import com.jw.activities.RubikActivity;
 import com.jw.blesample.adapter.DeviceAdapter;
 import com.jw.blesample.comm.ObserverManager;
 import com.jw.blesample.operation.OperationActivity;
@@ -49,7 +49,7 @@ import com.jw.fastble.scan.BleScanRuleConfig;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
-import com.jw.application.R;
+import com.jw.activities.R;
 
 
 public class BLEMainActivity extends AppCompatActivity implements View.OnClickListener {

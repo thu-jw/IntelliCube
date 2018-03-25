@@ -16,6 +16,19 @@
         android:paddingRight="16dp">
 
         <TextView
+            android:id="@+id/tv_drugcycle_now"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@null"
+            android:text="10s之后"
+            android:textColor="@color/black_33"
+            android:textSize="20sp"/>
+
+        <TextView style="@style/horizontal_line_style"/>
+
+        <TextView
             android:id="@+id/tv_drugcycle_once"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

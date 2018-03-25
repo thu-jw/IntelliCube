@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 //import com.jw.blesample.R;
-import com.jw.application.R;
+import com.jw.activities.R;
 import com.jw.fastble.BleManager;
 import com.jw.fastble.data.BleDevice;
 

@@ -13,10 +13,10 @@ import android.view.WindowManager;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-import com.jw.application.R;
+import com.jw.activities.R;
 
 public class SelectRemindCyclePopup implements OnClickListener {
-    private TextView tv_mon, tv_tue, tv_wed, tv_thu, tv_fri, tv_sat, tv_sun, tv_sure, every_day,
+    private TextView tv_now, tv_mon, tv_tue, tv_wed, tv_thu, tv_fri, tv_sat, tv_sun, tv_sure, every_day,
             tv_drugcycle_once;
     public PopupWindow mPopupWindow;
     private SelectRemindCyclePopupOnClickListener selectRemindCyclePopupListener;
@@ -54,7 +54,7 @@ public class SelectRemindCyclePopup implements OnClickListener {
     public View initViews() {
         View view = LayoutInflater.from(mContext).inflate(R.layout.selectremindcycle_pop_window,
                 null);
-
+        tv_now = (TextView) view.findViewById(R.id.tv_drugcycle_now);
         tv_drugcycle_once = (TextView) view.findViewById(R.id.tv_drugcycle_once);
         every_day = (TextView) view.findViewById(R.id.tv_drugcycle_0);
         tv_mon = (TextView) view.findViewById(R.id.tv_drugcycle_1);
@@ -66,6 +66,7 @@ public class SelectRemindCyclePopup implements OnClickListener {
         tv_sun = (TextView) view.findViewById(R.id.tv_drugcycle_7);
         tv_sure = (TextView) view.findViewById(R.id.tv_drugcycle_sure);
 
+        tv_now.setOnClickListener(this);
         tv_drugcycle_once.setOnClickListener(this);
         tv_mon.setOnClickListener(this);
         tv_tue.setOnClickListener(this);
@@ -85,6 +86,9 @@ public class SelectRemindCyclePopup implements OnClickListener {
         Drawable nav_right = mContext.getResources().getDrawable(R.drawable.cycle_check);
         nav_right.setBounds(0, 0, nav_right.getMinimumWidth(), nav_right.getMinimumHeight());
         switch (v.getId()) {
+            case R.id.tv_drugcycle_now:
+                selectRemindCyclePopupListener.obtainMessage(10, "");
+                break;
             case R.id.tv_drugcycle_once:
                 selectRemindCyclePopupListener.obtainMessage(9, "");
                 break;

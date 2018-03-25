@@ -64,7 +64,7 @@ import static com.jw.AnimCubeLib.CubeUtils.vProd;
 import static com.jw.AnimCubeLib.CubeUtils.vScale;
 import static com.jw.AnimCubeLib.CubeUtils.vSub;
 
-import com.jw.application.R;
+import com.jw.activities.R;
 /**
  * <p>
  * View capable of displaying a 3D Rubik's Cube, with support for interaction through touch gestures and for animating a sequence of moves.

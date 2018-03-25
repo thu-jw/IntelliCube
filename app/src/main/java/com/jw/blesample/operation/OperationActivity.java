@@ -12,7 +12,7 @@ import android.view.KeyEvent;
 import android.view.View;
 
 //import com.jw.blesample.R;
-import com.jw.application.R;
+import com.jw.activities.R;
 import com.jw.blesample.comm.Observer;
 import com.jw.blesample.comm.ObserverManager;
 import com.jw.fastble.BleManager;
