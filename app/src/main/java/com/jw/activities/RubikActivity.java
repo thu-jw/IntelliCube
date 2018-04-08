@@ -90,6 +90,9 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
         else if (MODE == 2){
             menuInflater.inflate(R.menu.menu, menu);
         }
+        else if (MODE == 4){
+            menuInflater.inflate(R.menu.demo_menu, menu);
+        }
         return true;
     }
 
@@ -207,12 +210,19 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
     }
 
     private void initView() {
-        setContentView(R.layout.activity_rubik);
+        if (MODE == 2) {
+            setContentView(R.layout.activity_rubik);
+        }
+        else if (MODE == 4){
+            setContentView(R.layout.activity_demo);
+        }
         message = (TextView) findViewById(R.id.message);
         message.setText("");
         message.setMovementMethod(ScrollingMovementMethod.getInstance());
-        timer_view = (TextView)findViewById(R.id.timer);
-        timer_view.setText("");
+        if (MODE == 2) {
+            timer_view = (TextView) findViewById(R.id.timer);
+            timer_view.setText("");
+        }
         toolbar = findViewById(R.id.cubeToolBar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -255,6 +265,7 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
                             @Override
                             public void run() {
                                 setMessage(exception.toString());
+                                onDestroy();
                             }
                         });
                     }
@@ -316,12 +327,16 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
     }
 
     public void setTimer(String t){
+        if (MODE == 4)
+            return;
         if (!isPlaying)
             return;
         timer_view.setText(t);
     }
 
     public void startTiming(){
+        if (MODE == 4)
+            return;
         isPlaying = true;
         Log.e("tag", "start");
         timer.count();
@@ -329,6 +344,8 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
     }
 
     public void endTiming(){
+        if (MODE == 4)
+            return;
         ShowFinishedSolveDialog();
         Log.e("tag", "endTiming");
         isPlaying = false;

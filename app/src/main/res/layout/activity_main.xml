@@ -46,6 +46,13 @@
                 android:text="@string/game" />
 
             <RadioButton
+                android:id="@+id/demo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/demo" />
+
+            <RadioButton
                 android:id="@+id/sensor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

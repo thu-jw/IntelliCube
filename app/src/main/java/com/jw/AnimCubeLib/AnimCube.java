@@ -2051,22 +2051,22 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener, Seria
         String seq = "";
         switch (layerID){
             case 0:
-                seq += "B";
+                seq += "U";//U
                 break;
             case 1:
-                seq += "F";
-                break;
-            case 2:
                 seq += "D";
                 break;
-            case 3:
-                seq += "U";
-                break;
-            case 4:
+            case 2:
                 seq += "R";
                 break;
-            case 5:
+            case 3:
                 seq += "L";
+                break;
+            case 4:
+                seq += "F";
+                break;
+            case 5:
+                seq += "B";
                 break;
         }
         if (seq.equals("")){

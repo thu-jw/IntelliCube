@@ -17,6 +17,7 @@
     <string name="game">魔方游戏</string>
     <string name="sensor">智能魔方</string>
     <string name="alarm">魔方闹钟</string>
+    <string name="demo">演示模式</string>
 
     <string name="connect_fail">连接失败</string>
     <string name="active_disconnected">断开了</string>
@@ -65,4 +66,5 @@
     <string name="cycle_sure">确定</string>
     <string name="vibration">震动</string>
     <string name="ring">铃声</string>
+
 </resources>

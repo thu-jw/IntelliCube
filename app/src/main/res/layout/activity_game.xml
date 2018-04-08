@@ -12,6 +12,7 @@
         android:layout_height="421dp"
         cube:backgroundColor="@color/ubuntuTheme"
         cube:debuggable="true"
+        cube:isRotatable="true"
         cube:editable="true"
         cube:functionMode="1"
         cube:scrambleSteps="3"

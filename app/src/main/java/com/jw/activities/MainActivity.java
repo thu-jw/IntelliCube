@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         showConnectedDevice();
         if (PROGRAME_MODE == 1){//如果当前处于魔方游戏，则自动切换到智能魔方
             PROGRAME_MODE = -1;
-            mode_group.check(R.id.sensor);
+            mode_group.check(R.id.demo);
         }
     }
 
@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (BleManager.getInstance().isConnected(bleDevice)) {
                     if(CUBE_ACTIVITY){
 //                        mBleDevice = bleDevice;
-                        if (PROGRAME_MODE == 2) {
+                        if (PROGRAME_MODE == 2 || PROGRAME_MODE == 4) {
                             Intent intent = new Intent(MainActivity.this, RubikActivity.class);
                             intent.putExtra(RubikActivity.KEY_DATA, bleDevice);
                             intent.putExtra(RubikActivity.RUN_MODE, PROGRAME_MODE);
@@ -223,10 +223,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             startActivity(intent1);
                         }
                         break;
+                    case R.id.demo:
+                        PROGRAME_MODE = 4;
                 }
             }
         });
-        mode_group.check(R.id.sensor);
+        mode_group.check(R.id.demo);
     }
 
     private void showConnectedDevice() {
