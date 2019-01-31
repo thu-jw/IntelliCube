@@ -42,8 +42,8 @@
 
     <TextView
         android:id="@+id/scramble"
-        android:layout_width="match_parent"
-        android:layout_height="39dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="#7755ff"
         android:gravity="center"
         android:textAlignment="center"
@@ -55,7 +55,7 @@
 
     <TextView
         android:id="@+id/timer"
-        android:layout_width="208dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"

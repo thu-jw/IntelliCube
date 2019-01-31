@@ -79,6 +79,7 @@ public class AlarmSettingActivity extends AppCompatActivity implements
     public static AlarmHandler alarmHandler;
     private MediaPlayer mediaPlayer;
     private Vibrator vibrator;
+    private boolean timing = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -249,8 +250,10 @@ public class AlarmSettingActivity extends AppCompatActivity implements
     private void setClock() {
 //        AlarmManagerUtil.setAnimCube(animCube);
         Log.e(TAG, "setClock");
+        timing = true;
         if (cycle == -2){
             AlarmManagerUtil.setAlarm(this, -1, 0, 0, 0, 0, "闹钟响了", ring);
+            date_tv.setText(R.string.after10);
         }
         if (time != null && time.length() > 0) {
             Log.e("TAG", "time = " + time);
@@ -363,6 +366,7 @@ public class AlarmSettingActivity extends AppCompatActivity implements
                     case 10:
                         tv_repeat_value.setText("10s之后");
                         cycle = -2;
+                        date_tv.setText("10s之后");
                         fp.dismiss();
                         break;
                     default:
@@ -487,8 +491,13 @@ public class AlarmSettingActivity extends AppCompatActivity implements
                 new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        anim_available = false;
-                        setClock();
+                        if (!animCube.checkFinished()) {
+                            anim_available = false;
+                            setClock();
+                        }
+                        else{
+                            date_tv.setText("闹钟未设置");
+                        }
                     }
                 });
         normalDialog.setNegativeButton("取消",
@@ -551,7 +560,7 @@ public class AlarmSettingActivity extends AppCompatActivity implements
 //        normalDialog.setIcon(R.drawable.ic_launcher_background);
         timeOutDialog.setTitle("闹钟响了");
         timeOutDialog.setMessage("魔方复原后闹钟才会停止哦~~");
-        timeOutDialog.setPositiveButton("确定",
+        timeOutDialog.setPositiveButton(" ",
                 new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
@@ -564,6 +573,9 @@ public class AlarmSettingActivity extends AppCompatActivity implements
 
 
     private void finishAlarm(){
+        Log.e("finished", String.valueOf(timing));
+        if (!timing)
+            return;
         if (ring == 0){
             vibrator.cancel();
         }
@@ -571,5 +583,6 @@ public class AlarmSettingActivity extends AppCompatActivity implements
             mediaPlayer.stop();
             mediaPlayer.release();
         }
+        timing = false;
     }
 }

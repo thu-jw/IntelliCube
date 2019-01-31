@@ -38,10 +38,11 @@ public class GameActivity extends AppCompatActivity implements AnimCube.OnCubeMo
         super.onCreate(savedInstanceState);
         initData();
         initView();
-        animCube = (AnimCube) findViewById(R.id.animcube);
+        animCube = (AnimCube)findViewById(R.id.animcube);
         animCube.setOnCubeModelUpdatedListener(this);
         animCube.setOnAnimationFinishedListener(this);
         animCube.setParent(this);
+//        message.setText(animCube.cube2String());
     }
 
     @Override
@@ -109,6 +110,7 @@ public class GameActivity extends AppCompatActivity implements AnimCube.OnCubeMo
     @Override
     public void onCubeModelUpdate(int[][] newCubeModel) {
         Log.d(TAG, "Cube model updated!");
+
         printCubeModel(newCubeModel);
     }
 
@@ -135,6 +137,7 @@ public class GameActivity extends AppCompatActivity implements AnimCube.OnCubeMo
     @Override
     public void onAnimationFinished() {
         Log.d(TAG, "Cube AnimationFinished!");
+        message.setText(animCube.cube2String());
     }
 
 
@@ -185,9 +188,9 @@ public class GameActivity extends AppCompatActivity implements AnimCube.OnCubeMo
     }
 
     public void endTiming(){
-        ShowFinishedSolveDialog();
+//        ShowFinishedSolveDialog();
         Log.e("tag", "endTiming");
-        isPlaying = false;
+//        isPlaying = false;
     }
 
     public void ShowFinishedSolveDialog() {
@@ -208,4 +211,7 @@ public class GameActivity extends AppCompatActivity implements AnimCube.OnCubeMo
             }
         }, getFragmentManager());
     }
+//    public void showFacelet(){
+//        message.setText(animCube.cube2String());
+//    }
 }

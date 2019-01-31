@@ -66,5 +66,7 @@
     <string name="cycle_sure">确定</string>
     <string name="vibration">震动</string>
     <string name="ring">铃声</string>
+    <string name="cube_solve">还原</string>
+    <string name="after10">10s之后</string>
 
 </resources>

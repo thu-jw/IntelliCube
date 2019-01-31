@@ -5,4 +5,9 @@
         android:id="@+id/reset"
         android:title="@string/cube_reset"
         app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/solve"
+        android:title="@string/cube_solve"
+        app:showAsAction="never"/>
 </menu>

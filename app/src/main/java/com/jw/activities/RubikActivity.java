@@ -19,12 +19,16 @@ import android.widget.Toast;
 
 import com.jw.AnimCubeLib.AnimCube;
 
+import com.jw.AnimCubeLib.CubeConstants;
 import com.jw.blesample.comm.Observer;
 import com.jw.blesample.comm.ObserverManager;
 import com.jw.fastble.BleManager;
 import com.jw.fastble.callback.BleNotifyCallback;
 import com.jw.fastble.data.BleDevice;
 import com.jw.fastble.exception.BleException;
+import com.jw.min2phase.Search;
+import com.jw.min2phase.Tools;
+import com.jw.min2phase.CubieCube;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -47,6 +51,7 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
 //    public int turnCode = 0x1;
     private AnimCube animCube;
     private Bundle state;
+    private boolean solve_start = false;
 
 
     //bluetooth
@@ -57,6 +62,7 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
 
     private Toolbar toolbar;
     private TextView message;
+    private TextView solver;
 
     private final int available_codes[] = {1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14};
     private Random random = new Random(System.currentTimeMillis());
@@ -129,6 +135,9 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
                 else {
                     animCube.restoreState(state);
                 }
+                break;
+            case R.id.solve:
+                showSolveSteps();
                 break;
         }
         return super.onOptionsItemSelected(item);
@@ -207,6 +216,9 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
         bleDevice = getIntent().getParcelableExtra(KEY_DATA);
         if (bleDevice == null)
             finish();
+        if (MODE == 4){
+            CubieCube.initMove();
+        }
     }
 
     private void initView() {
@@ -215,6 +227,11 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
         }
         else if (MODE == 4){
             setContentView(R.layout.activity_demo);
+            solver = (TextView) findViewById(R.id.solver);
+            solver.setText("");
+            solver.setMovementMethod(ScrollingMovementMethod.getInstance());
+            timer_view = (TextView) findViewById(R.id.timer);
+            timer_view.setText("");
         }
         message = (TextView) findViewById(R.id.message);
         message.setText("");
@@ -286,12 +303,13 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
 //                                 seq = ;
                                 int code = characteristic.getValue()[0];
                                 String seq = animCube.decode(characteristic.getValue()[0]);
+                                seq += " ";
                                 Log.e(TAG, String.valueOf(code));
 //                                if (!seq.equals("\n") || (message.getText().charAt(message.getText().length() - 1) == '\n')){
 //                                    setMessage(seq);
 //                                }
                                 setMessage(seq);
-                                if (!seq.equals("") && !isPlaying){
+                                if (!seq.equals(" ") && !isPlaying){
                                     startTiming();
                                 }
                                 move_seqs.offer(seq);
@@ -327,15 +345,13 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
     }
 
     public void setTimer(String t){
-        if (MODE == 4)
-            return;
         if (!isPlaying)
             return;
         timer_view.setText(t);
     }
 
     public void startTiming(){
-        if (MODE == 4)
+        if (MODE == 4 && !solve_start)
             return;
         isPlaying = true;
         Log.e("tag", "start");
@@ -344,8 +360,11 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
     }
 
     public void endTiming(){
-        if (MODE == 4)
-            return;
+        if (MODE == 4) {
+            if (!solve_start)
+                return;
+            solve_start = false;
+        }
         ShowFinishedSolveDialog();
         Log.e("tag", "endTiming");
         isPlaying = false;
@@ -357,14 +376,25 @@ public class RubikActivity extends AppCompatActivity implements AnimCube.OnCubeM
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 timer_view.setText("");
+                solver.setText("");
                 message.setText("");
             }
         }, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 timer_view.setText("");
+                solver.setText("");
                 message.setText("");
             }
         }, getFragmentManager());
     }
+
+    private void showSolveSteps(){
+        String scrambledCube = Tools.fromScramble(message.getText().toString());
+        String result = new Search().solution(scrambledCube, 21, 100000000, 0, Search.APPEND_LENGTH);
+        solver.setText(result);
+        solve_start = true;
+    }
+
+
 }

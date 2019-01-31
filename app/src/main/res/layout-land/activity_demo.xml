@@ -8,17 +8,17 @@
 
     <com.jw.AnimCubeLib.AnimCube
         android:id="@+id/animcube"
-        android:layout_width="338dp"
-        android:layout_height="match_parent"
+        android:layout_width="328dp"
+        android:layout_height="308dp"
         cube:backgroundColor="@color/ubuntuTheme"
         cube:debuggable="true"
         cube:editable="true"
         cube:functionMode="2"
-        cube:layout_constraintLeft_toLeftOf="parent"
+        cube:layout_constraintStart_toStartOf="parent"
         cube:layout_constraintTop_toBottomOf="@+id/cubeToolBar"
         cube:moves="R2' U M U' R2' U M' U'"
         cube:scrambleSteps="3"
-        cube:singleRotationSpeed="6" />
+        cube:singleRotationSpeed="3" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/cubeToolBar"
@@ -29,6 +29,7 @@
         android:theme="?attr/actionBarTheme"
         cube:layout_constraintBottom_toTopOf="@+id/animcube"
         cube:layout_constraintEnd_toEndOf="parent"
+        cube:layout_constraintHorizontal_bias="1.0"
         cube:layout_constraintLeft_toLeftOf="parent"
         cube:layout_constraintStart_toStartOf="parent"
         cube:layout_constraintTop_toTopOf="parent"
@@ -37,23 +38,50 @@
 
     </android.support.v7.widget.Toolbar>
 
-
     <TextView
         android:id="@+id/message"
-        android:layout_width="0dp"
-        android:layout_height="316dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:gravity="top"
-        android:textColor="@android:color/background_dark"
-        android:textSize="30sp"
+        android:layout_width="259dp"
+        android:layout_height="114dp"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/test_string"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
         cube:layout_constraintBottom_toBottomOf="parent"
-        cube:layout_constraintEnd_toEndOf="parent"
-        cube:layout_constraintStart_toEndOf="@+id/animcube"
-        cube:layout_constraintTop_toTopOf="parent"
-        cube:layout_constraintVertical_bias="1.0"
-        cube:layout_constraintVertical_chainStyle="spread"
-        tools:text="d" />
+        cube:layout_constraintHorizontal_bias="0.5"
+        cube:layout_constraintLeft_toRightOf="@id/animcube"
+        cube:layout_constraintRight_toRightOf="parent"
+        cube:layout_constraintTop_toBottomOf="@+id/solver" />
+
+    <TextView
+        android:id="@+id/solver"
+        android:layout_width="259dp"
+        android:layout_height="82dp"
+        android:background="@color/colorPrimary"
+        android:text="UKLLJJJKKDJDJDJDJSJDJdddddDDDDDDDdd"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        cube:layout_constraintBottom_toTopOf="@+id/message"
+        cube:layout_constraintHorizontal_bias="0.5"
+        cube:layout_constraintLeft_toRightOf="@id/animcube"
+        cube:layout_constraintRight_toRightOf="parent"
+        cube:layout_constraintTop_toBottomOf="@+id/timer" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="215dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:text="test"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        cube:layout_constraintBottom_toTopOf="@+id/solver"
+        cube:layout_constraintHorizontal_bias="0.5"
+        cube:layout_constraintLeft_toRightOf="@id/animcube"
+        cube:layout_constraintRight_toRightOf="parent"
+        cube:layout_constraintTop_toBottomOf="@+id/cubeToolBar" />
 
 </android.support.constraint.ConstraintLayout>

@@ -2015,6 +2015,9 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener, Seria
     }
 
     public boolean checkFinished() {
+//        if (functionMode ==  1){
+//            ((GameActivity)parent).showFacelet();
+//        }
         Log.e(TAG, "checking finished:");
         int [][] test = cube;
         for (int i = 0; i < cube.length; i++){
@@ -2025,6 +2028,7 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener, Seria
         }
         if (functionMode ==  1){
             ((GameActivity)parent).endTiming();
+//            ((GameActivity)parent).showFacelet();
         }
         else if (functionMode ==  2){
             ((RubikActivity)parent).endTiming();
@@ -2106,7 +2110,49 @@ public class AnimCube extends SurfaceView implements View.OnTouchListener, Seria
         scrambleSteps = i;
     }
 
+    public String cube2String(){
+        String a = "";
+        for (int i = 0; i < 6; i++){
+            a += String.valueOf(i);
+            a += ":";
+            for (int j = 0; j < 9; j++){
+                a = a + String.valueOf(cube[i][j]);
+            }
+            a += "\n";
+        }
+        return a;
+    }
+
     public void setHandler(AlarmSettingActivity.AlarmHandler h){
         alarmHandler = h;
     }
 }
+/*
+ *    0 y U
+ *    1 w D
+ *    2 b F
+ *    3 g B
+ *    4 o L
+ *    5 r R
+ *         *             |************|
+     *             |*U7**U8**U9*|
+     *             |************|
+     *             |*U4**U5**U6*|
+     *             |************|
+     *             |*U1**U2**U3*|
+     *             |************|
+     * ************|************|************|************|
+     * *L1**L2**L3*|*F1**F2**F3*|*R1**R2**R3*|*B1**B2**B3*|
+     * ************|************|************|************|
+     * *L4**L5**L6*|*F4**F5**F6*|*R4**R5**R6*|*B4**B5**B6*|
+     * ************|************|************|************|
+     * *L7**L8**L9*|*F7**F8**F9*|*R7**R8**R9*|*B7**B8**B9*|
+     * ************|************|************|************|
+     *             |************|
+     *             |*D1**D2**D3*|
+     *             |************|
+     *             |*D4**D5**D6*|
+     *             |************|
+     *             |*D7**D8**D9*|
+     *             |************|
+ */

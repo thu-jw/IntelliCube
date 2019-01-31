@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\d01a268e42627209f3b5367c8c05e820\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="24"
+        optimize="true"
+        revision="26.0.2"
+        sha1="00290831ca6f060783db9c00f7d15c94b9096d7c">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\d01a268e42627209f3b5367c8c05e820\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="20"
+        optimize="true"
+        revision="26.0.2"
+        sha1="00290831ca6f060783db9c00f7d15c94b9096d7c">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\ca47998205c84095f8bbcdf7f6d87391\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="20"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e5ac95feaf0f7fe43e5581d852c5f5e252edea1">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProjects\IntelliCube\FastBleLib\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="20"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2f1d8db6b48cfea39e1a720a2f1ba8ddc592f5b">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\ca47998205c84095f8bbcdf7f6d87391\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="24"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e5ac95feaf0f7fe43e5581d852c5f5e252edea1">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bc1ad56306f4e7573264c4cba97615cb\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="20"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\75006a73a4fcef08ce7f547a6cc2cecb\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="20"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d9d589dc939ea486f21c048cce2a1366d6f30fe9">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\3cbf28156b4537d88e1bca26cb503265\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="24"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\3cbf28156b4537d88e1bca26cb503265\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="20"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProjects\IntelliCube\FastBleLib\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="24"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2f1d8db6b48cfea39e1a720a2f1ba8ddc592f5b">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\75006a73a4fcef08ce7f547a6cc2cecb\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="24"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d9d589dc939ea486f21c048cce2a1366d6f30fe9">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\6c52c965d9458788fe9697f6815ea8ca\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="24"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1d4a04619afc2262389ed421b6762c77e9dc7a46">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\SDK\android-sdk\android-sdk_r24.4.1-windows\android-sdk-windows\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="20"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\SDK\android-sdk\android-sdk_r24.4.1-windows\android-sdk-windows\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="24"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bc1ad56306f4e7573264c4cba97615cb\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="24"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\pickerview-2.0.8.aar\0de635619c19b3c914fe2588665d5c73\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="20"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f3f00bb9cdb0a14b0db183427d227bfd78b29ec2">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\344802b7ab5ba4437a30bcc413296d01\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="20"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d1665bf0bf1d4702216fd42524675d18c3789e87">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\e84ce0411ada2f3e68944b18e4d24c1e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="20"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6c47b3d6ef74a657a38945022be05eb3b4360628">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\50e04e4c59769fbae575dcacd53bc065\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="24"
+        optimize="true"
+        revision="26.0.2"
+        sha1="926c07c980679a35530feb532d8a5b19147916c3">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\344802b7ab5ba4437a30bcc413296d01\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="24"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d1665bf0bf1d4702216fd42524675d18c3789e87">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\50e04e4c59769fbae575dcacd53bc065\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="20"
+        optimize="true"
+        revision="26.0.2"
+        sha1="926c07c980679a35530feb532d8a5b19147916c3">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\e84ce0411ada2f3e68944b18e4d24c1e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="24"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6c47b3d6ef74a657a38945022be05eb3b4360628">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\a2c25331586c15ce1ea902ef7eb50edb\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="24"
+        optimize="true"
+        revision="26.0.2"
+        sha1="26ebe5f1e584ab68955c221073a9ba45b8adb80b">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\6c52c965d9458788fe9697f6815ea8ca\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="20"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1d4a04619afc2262389ed421b6762c77e9dc7a46">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\a2c25331586c15ce1ea902ef7eb50edb\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="20"
+        optimize="true"
+        revision="26.0.2"
+        sha1="26ebe5f1e584ab68955c221073a9ba45b8adb80b">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.0.0-beta1\419585951f4c634aa292db0b734c29541a25b94a\support-annotations-26.0.0-beta1.jar"
+        jumboMode="false"
+        min-sdk-version="24"
+        optimize="true"
+        revision="26.0.2"
+        sha1="419585951f4c634aa292db0b734c29541a25b94a">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John Williams\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.0.0-beta1\419585951f4c634aa292db0b734c29541a25b94a\support-annotations-26.0.0-beta1.jar"
+        jumboMode="false"
+        min-sdk-version="20"
+        optimize="true"
+        revision="26.0.2"
+        sha1="419585951f4c634aa292db0b734c29541a25b94a">
+        <dex dex="D:\AndroidProjects\IntelliCube\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+
+</items>
